@@ -1,0 +1,1901 @@
+2026-07-20 20:42:41,059 - INFO - Gym Management System Started
+2026-07-20 20:50:29,364 - WARNING -  * Debugger is active!
+2026-07-20 20:50:29,374 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 20:50:38,991 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 20:50:38,991 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:50:38,994 - INFO -  * Restarting with stat
+2026-07-20 20:50:39,669 - WARNING -  * Debugger is active!
+2026-07-20 20:50:39,675 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 20:51:09,588 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 20:51:09,589 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:51:09,590 - INFO -  * Restarting with stat
+2026-07-20 20:51:09,908 - WARNING -  * Debugger is active!
+2026-07-20 20:51:09,911 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 20:51:57,993 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 20:51:57,993 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:51:57,994 - INFO -  * Restarting with stat
+2026-07-20 20:51:58,302 - WARNING -  * Debugger is active!
+2026-07-20 20:51:58,304 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 20:52:09,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 20:52:09,246 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 20:52:09,247 - INFO -  * Restarting with stat
+2026-07-20 20:52:09,561 - WARNING -  * Debugger is active!
+2026-07-20 20:52:09,564 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 20:56:42,737 - INFO - 127.0.0.1 - - [20/Jul/2026 20:56:42] "GET / HTTP/1.1" 200 -
+2026-07-20 20:56:50,862 - INFO - 127.0.0.1 - - [20/Jul/2026 20:56:50] "GET / HTTP/1.1" 200 -
+2026-07-20 20:57:22,151 - INFO - 127.0.0.1 - - [20/Jul/2026 20:57:22] "GET /members HTTP/1.1" 200 -
+2026-07-20 21:12:40,180 - INFO - 127.0.0.1 - - [20/Jul/2026 21:12:40] "GET /members HTTP/1.1" 200 -
+2026-07-20 21:14:33,494 - INFO - Member Added Successfully : 1
+2026-07-20 21:14:33,496 - INFO - 127.0.0.1 - - [20/Jul/2026 21:14:33] "[35m[1mPOST /members HTTP/1.1[0m" 201 -
+2026-07-20 21:15:34,331 - INFO - 127.0.0.1 - - [20/Jul/2026 21:15:34] "GET /members HTTP/1.1" 200 -
+2026-07-20 21:17:27,459 - INFO -  * Detected change in 'C:\\Gym_Management_System\\models\\member.py', reloading
+2026-07-20 21:17:27,724 - INFO -  * Restarting with stat
+2026-07-20 21:23:48,608 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 21:23:48,608 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 21:23:48,612 - INFO -  * Restarting with stat
+2026-07-20 21:23:49,199 - WARNING -  * Debugger is active!
+2026-07-20 21:23:49,206 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:24:04,181 - INFO - Member Updated : 1
+2026-07-20 21:24:04,184 - INFO - 127.0.0.1 - - [20/Jul/2026 21:24:04] "PUT /members/1 HTTP/1.1" 200 -
+2026-07-20 21:27:12,197 - INFO -  * Detected change in 'C:\\Gym_Management_System\\utils\\database.py', reloading
+2026-07-20 21:27:12,303 - INFO -  * Restarting with stat
+2026-07-20 21:27:13,032 - WARNING -  * Debugger is active!
+2026-07-20 21:27:13,042 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:28:53,596 - INFO -  * Detected change in 'C:\\Gym_Management_System\\utils\\validators.py', reloading
+2026-07-20 21:28:53,694 - INFO -  * Restarting with stat
+2026-07-20 21:28:54,595 - WARNING -  * Debugger is active!
+2026-07-20 21:28:54,602 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:29:37,274 - INFO -  * Detected change in 'C:\\Gym_Management_System\\routes\\trainer_routes.py', reloading
+2026-07-20 21:29:37,476 - INFO -  * Restarting with stat
+2026-07-20 21:29:39,083 - WARNING -  * Debugger is active!
+2026-07-20 21:29:39,092 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:29:52,316 - INFO -  * Detected change in 'C:\\Gym_Management_System\\app.py', reloading
+2026-07-20 21:29:52,478 - INFO -  * Restarting with stat
+2026-07-20 21:29:53,171 - WARNING -  * Debugger is active!
+2026-07-20 21:29:53,180 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:29:59,285 - INFO -  * Detected change in 'C:\\Gym_Management_System\\app.py', reloading
+2026-07-20 21:29:59,349 - INFO -  * Restarting with stat
+2026-07-20 21:29:59,990 - WARNING -  * Debugger is active!
+2026-07-20 21:29:59,999 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:30:08,716 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 21:30:08,716 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 21:30:08,717 - INFO -  * Restarting with stat
+2026-07-20 21:30:09,167 - WARNING -  * Debugger is active!
+2026-07-20 21:30:09,170 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:30:27,786 - INFO - 127.0.0.1 - - [20/Jul/2026 21:30:27] "GET /trainers HTTP/1.1" 200 -
+2026-07-20 21:32:32,605 - ERROR - 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2026-07-20 21:32:32,606 - INFO - 127.0.0.1 - - [20/Jul/2026 21:32:32] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-20 21:32:56,845 - ERROR - table trainers has no column named full_name
+2026-07-20 21:32:56,845 - INFO - 127.0.0.1 - - [20/Jul/2026 21:32:56] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-20 21:33:18,219 - ERROR - table trainers has no column named full_name
+2026-07-20 21:33:18,220 - INFO - 127.0.0.1 - - [20/Jul/2026 21:33:18] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-20 21:36:38,530 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 21:36:38,531 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 21:36:38,532 - INFO -  * Restarting with stat
+2026-07-20 21:36:39,054 - WARNING -  * Debugger is active!
+2026-07-20 21:36:39,063 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:36:46,381 - INFO - Trainer Added : 1
+2026-07-20 21:36:46,383 - INFO - 127.0.0.1 - - [20/Jul/2026 21:36:46] "[35m[1mPOST /trainers HTTP/1.1[0m" 201 -
+2026-07-20 21:40:25,626 - INFO -  * Detected change in 'C:\\Gym_Management_System\\utils\\database.py', reloading
+2026-07-20 21:40:25,710 - INFO -  * Restarting with stat
+2026-07-20 21:40:26,808 - WARNING -  * Debugger is active!
+2026-07-20 21:40:26,818 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:40:44,052 - INFO -  * Detected change in 'C:\\Gym_Management_System\\models\\membership.py', reloading
+2026-07-20 21:40:44,237 - INFO -  * Restarting with stat
+2026-07-20 21:40:45,667 - WARNING -  * Debugger is active!
+2026-07-20 21:40:45,671 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:41:30,180 - INFO -  * Detected change in 'C:\\Gym_Management_System\\utils\\validators.py', reloading
+2026-07-20 21:41:30,262 - INFO -  * Restarting with stat
+2026-07-20 21:41:31,060 - WARNING -  * Debugger is active!
+2026-07-20 21:41:31,066 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:43:02,253 - INFO -  * Detected change in 'C:\\Gym_Management_System\\routes\\membership_routes.py', reloading
+2026-07-20 21:43:02,334 - INFO -  * Restarting with stat
+2026-07-20 21:43:02,866 - WARNING -  * Debugger is active!
+2026-07-20 21:43:02,869 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:44:22,890 - INFO -  * Detected change in 'C:\\Gym_Management_System\\app.py', reloading
+2026-07-20 21:44:23,029 - INFO -  * Restarting with stat
+2026-07-20 21:44:23,785 - WARNING -  * Debugger is active!
+2026-07-20 21:44:23,797 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:44:54,644 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 21:44:54,644 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 21:44:54,646 - INFO -  * Restarting with stat
+2026-07-20 21:44:55,034 - WARNING -  * Debugger is active!
+2026-07-20 21:44:55,039 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:45:10,262 - INFO - 127.0.0.1 - - [20/Jul/2026 21:45:10] "GET /memberships HTTP/1.1" 200 -
+2026-07-20 21:46:32,009 - INFO - Membership Added : 1
+2026-07-20 21:46:32,010 - INFO - 127.0.0.1 - - [20/Jul/2026 21:46:32] "[35m[1mPOST /memberships HTTP/1.1[0m" 201 -
+2026-07-20 21:49:03,703 - INFO -  * Detected change in 'C:\\Gym_Management_System\\utils\\database.py', reloading
+2026-07-20 21:49:03,839 - INFO -  * Restarting with stat
+2026-07-20 21:49:05,037 - WARNING -  * Debugger is active!
+2026-07-20 21:49:05,044 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:49:35,445 - INFO -  * Detected change in 'C:\\Gym_Management_System\\models\\attendance.py', reloading
+2026-07-20 21:49:35,539 - INFO -  * Restarting with stat
+2026-07-20 21:49:36,216 - WARNING -  * Debugger is active!
+2026-07-20 21:49:36,223 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:50:08,667 - INFO -  * Detected change in 'C:\\Gym_Management_System\\utils\\validators.py', reloading
+2026-07-20 21:50:08,822 - INFO -  * Restarting with stat
+2026-07-20 21:50:09,561 - WARNING -  * Debugger is active!
+2026-07-20 21:50:09,570 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:50:46,088 - INFO -  * Detected change in 'C:\\Gym_Management_System\\routes\\attendance_routes.py', reloading
+2026-07-20 21:50:46,281 - INFO -  * Restarting with stat
+2026-07-20 21:50:47,088 - WARNING -  * Debugger is active!
+2026-07-20 21:50:47,100 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:51:16,484 - INFO -  * Detected change in 'C:\\Gym_Management_System\\app.py', reloading
+2026-07-20 21:51:16,556 - INFO -  * Restarting with stat
+2026-07-20 21:51:17,112 - WARNING -  * Debugger is active!
+2026-07-20 21:51:17,118 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:51:35,946 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 21:51:35,946 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 21:51:35,948 - INFO -  * Restarting with stat
+2026-07-20 21:51:36,415 - WARNING -  * Debugger is active!
+2026-07-20 21:51:36,418 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:51:46,619 - INFO - 127.0.0.1 - - [20/Jul/2026 21:51:46] "GET /attendance HTTP/1.1" 200 -
+2026-07-20 21:52:11,239 - ERROR - FOREIGN KEY constraint failed
+2026-07-20 21:52:11,240 - INFO - 127.0.0.1 - - [20/Jul/2026 21:52:11] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-20 21:53:01,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 21:53:01,415 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 21:53:01,417 - INFO -  * Restarting with stat
+2026-07-20 21:53:01,819 - WARNING -  * Debugger is active!
+2026-07-20 21:53:01,823 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 21:53:09,839 - ERROR - FOREIGN KEY constraint failed
+2026-07-20 21:53:09,840 - INFO - 127.0.0.1 - - [20/Jul/2026 21:53:09] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-20 21:53:48,554 - ERROR - database is locked
+2026-07-20 21:53:48,555 - INFO - 127.0.0.1 - - [20/Jul/2026 21:53:48] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-20 21:54:06,031 - ERROR - database is locked
+2026-07-20 21:54:06,032 - INFO - 127.0.0.1 - - [20/Jul/2026 21:54:06] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-20 22:02:19,391 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-20 22:02:19,392 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-20 22:02:19,393 - INFO -  * Restarting with stat
+2026-07-20 22:02:19,982 - WARNING -  * Debugger is active!
+2026-07-20 22:02:19,989 - INFO -  * Debugger PIN: 120-177-229
+2026-07-20 22:02:25,001 - ERROR - FOREIGN KEY constraint failed
+2026-07-20 22:02:25,003 - INFO - 127.0.0.1 - - [20/Jul/2026 22:02:25] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-20 22:03:25,418 - ERROR - database is locked
+2026-07-20 22:03:25,420 - INFO - 127.0.0.1 - - [20/Jul/2026 22:03:25] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-20 22:03:54,152 - ERROR - database is locked
+2026-07-20 22:03:54,171 - INFO - 127.0.0.1 - - [20/Jul/2026 22:03:54] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-21 18:41:13,335 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 18:41:13,336 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 18:41:13,337 - INFO -  * Restarting with stat
+2026-07-21 18:41:13,783 - WARNING -  * Debugger is active!
+2026-07-21 18:41:13,789 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 18:51:23,592 - INFO -  * Detected change in 'C:\\Gym_Management_System\\utils\\database.py', reloading
+2026-07-21 18:51:23,723 - INFO -  * Restarting with stat
+2026-07-21 18:51:26,017 - WARNING -  * Debugger is active!
+2026-07-21 18:51:26,029 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 18:54:11,044 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 18:54:11,044 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 18:54:11,045 - INFO -  * Restarting with stat
+2026-07-21 18:54:11,397 - WARNING -  * Debugger is active!
+2026-07-21 18:54:11,402 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 18:54:16,747 - ERROR - FOREIGN KEY constraint failed
+2026-07-21 18:54:16,748 - INFO - 127.0.0.1 - - [21/Jul/2026 18:54:16] "[35m[1mPOST /attendance HTTP/1.1[0m" 500 -
+2026-07-21 18:56:50,021 - INFO - 127.0.0.1 - - [21/Jul/2026 18:56:50] "GET /members HTTP/1.1" 200 -
+2026-07-21 18:56:50,088 - INFO - 127.0.0.1 - - [21/Jul/2026 18:56:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-21 18:58:05,979 - INFO - 127.0.0.1 - - [21/Jul/2026 18:58:05] "GET / HTTP/1.1" 200 -
+2026-07-21 18:58:28,742 - INFO - 127.0.0.1 - - [21/Jul/2026 18:58:28] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 18:58:59,255 - INFO - 127.0.0.1 - - [21/Jul/2026 18:58:59] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 18:59:25,331 - INFO - 127.0.0.1 - - [21/Jul/2026 18:59:25] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 19:00:25,644 - INFO - 127.0.0.1 - - [21/Jul/2026 19:00:25] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 19:01:07,080 - ERROR - database is locked
+2026-07-21 19:01:07,080 - INFO - 127.0.0.1 - - [21/Jul/2026 19:01:07] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-21 19:02:34,877 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:02:34,877 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:02:34,879 - INFO -  * Restarting with stat
+2026-07-21 19:02:35,512 - WARNING -  * Debugger is active!
+2026-07-21 19:02:35,517 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 19:02:46,482 - INFO - Trainer Added : 1
+2026-07-21 19:02:46,484 - INFO - 127.0.0.1 - - [21/Jul/2026 19:02:46] "[35m[1mPOST /trainers HTTP/1.1[0m" 201 -
+2026-07-21 19:04:18,476 - INFO - Membership Added : 1
+2026-07-21 19:04:18,477 - INFO - 127.0.0.1 - - [21/Jul/2026 19:04:18] "[35m[1mPOST /memberships HTTP/1.1[0m" 201 -
+2026-07-21 19:06:09,815 - INFO - Member Added Successfully : 1
+2026-07-21 19:06:09,815 - INFO - 127.0.0.1 - - [21/Jul/2026 19:06:09] "[35m[1mPOST /members HTTP/1.1[0m" 201 -
+2026-07-21 19:06:36,219 - INFO - 127.0.0.1 - - [21/Jul/2026 19:06:36] "GET /members HTTP/1.1" 200 -
+2026-07-21 19:08:00,080 - INFO - Attendance Recorded : 1
+2026-07-21 19:08:00,080 - INFO - 127.0.0.1 - - [21/Jul/2026 19:08:00] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-21 19:08:10,437 - INFO - 127.0.0.1 - - [21/Jul/2026 19:08:10] "GET /attendance HTTP/1.1" 200 -
+2026-07-21 19:12:25,787 - ERROR - UNIQUE constraint failed: members.email
+2026-07-21 19:12:25,788 - INFO - 127.0.0.1 - - [21/Jul/2026 19:12:25] "[35m[1mPOST /members HTTP/1.1[0m" 500 -
+2026-07-21 19:13:02,232 - ERROR - database is locked
+2026-07-21 19:13:02,233 - INFO - 127.0.0.1 - - [21/Jul/2026 19:13:02] "[35m[1mPOST /members HTTP/1.1[0m" 500 -
+2026-07-21 19:14:24,107 - INFO -  * Detected change in 'C:\\Gym_Management_System\\models\\member.py', reloading
+2026-07-21 19:14:24,162 - INFO -  * Restarting with stat
+2026-07-21 19:14:25,310 - WARNING -  * Debugger is active!
+2026-07-21 19:14:25,315 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 19:14:46,130 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:14:46,130 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:14:46,131 - INFO -  * Restarting with stat
+2026-07-21 19:14:46,431 - WARNING -  * Debugger is active!
+2026-07-21 19:14:46,434 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 19:14:51,873 - ERROR - FOREIGN KEY constraint failed
+2026-07-21 19:14:51,873 - INFO - 127.0.0.1 - - [21/Jul/2026 19:14:51] "[35m[1mPOST /members HTTP/1.1[0m" 500 -
+2026-07-21 19:15:34,194 - INFO - 127.0.0.1 - - [21/Jul/2026 19:15:34] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 19:16:58,526 - ERROR - database is locked
+2026-07-21 19:16:58,527 - INFO - 127.0.0.1 - - [21/Jul/2026 19:16:58] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-21 19:17:27,627 - ERROR - database is locked
+2026-07-21 19:17:27,628 - INFO - 127.0.0.1 - - [21/Jul/2026 19:17:27] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-21 19:18:06,124 - ERROR - database is locked
+2026-07-21 19:18:06,125 - INFO - 127.0.0.1 - - [21/Jul/2026 19:18:06] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-21 19:20:38,279 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:20:38,279 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:20:38,283 - INFO -  * Restarting with stat
+2026-07-21 19:20:38,698 - WARNING -  * Debugger is active!
+2026-07-21 19:20:38,702 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 19:21:51,633 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:21:51,633 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:21:51,635 - INFO -  * Restarting with stat
+2026-07-21 19:21:52,087 - WARNING -  * Debugger is active!
+2026-07-21 19:21:52,093 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 19:22:16,215 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:22:16,215 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:22:16,217 - INFO -  * Restarting with stat
+2026-07-21 19:22:16,628 - WARNING -  * Debugger is active!
+2026-07-21 19:22:16,631 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 19:23:03,256 - INFO -  * Detected change in 'C:\\Gym_Management_System\\app.py', reloading
+2026-07-21 19:23:03,322 - INFO -  * Restarting with stat
+2026-07-21 19:23:03,791 - WARNING -  * Debugger is active!
+2026-07-21 19:23:03,795 - INFO -  * Debugger PIN: 120-177-229
+2026-07-21 19:23:10,748 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:23:10,748 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:23:44,561 - INFO - Trainer Added : 1
+2026-07-21 19:23:44,562 - INFO - 127.0.0.1 - - [21/Jul/2026 19:23:44] "[35m[1mPOST /trainers HTTP/1.1[0m" 201 -
+2026-07-21 19:24:10,688 - INFO - 127.0.0.1 - - [21/Jul/2026 19:24:10] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 19:24:45,184 - INFO - 127.0.0.1 - - [21/Jul/2026 19:24:45] "GET /memberships HTTP/1.1" 200 -
+2026-07-21 19:25:09,539 - INFO - Membership Added : 1
+2026-07-21 19:25:09,540 - INFO - 127.0.0.1 - - [21/Jul/2026 19:25:09] "[35m[1mPOST /memberships HTTP/1.1[0m" 201 -
+2026-07-21 19:25:18,588 - INFO - 127.0.0.1 - - [21/Jul/2026 19:25:18] "GET /memberships HTTP/1.1" 200 -
+2026-07-21 19:26:34,491 - INFO - Member Added Successfully : 1
+2026-07-21 19:26:34,492 - INFO - 127.0.0.1 - - [21/Jul/2026 19:26:34] "[35m[1mPOST /members HTTP/1.1[0m" 201 -
+2026-07-21 19:26:40,693 - INFO - 127.0.0.1 - - [21/Jul/2026 19:26:40] "GET /members HTTP/1.1" 200 -
+2026-07-21 19:31:20,739 - INFO - 127.0.0.1 - - [21/Jul/2026 19:31:20] "[33mPOST /payments HTTP/1.1[0m" 404 -
+2026-07-21 19:31:57,729 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:31:57,729 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:32:06,257 - INFO - 127.0.0.1 - - [21/Jul/2026 19:32:06] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:33:06,200 - INFO - 127.0.0.1 - - [21/Jul/2026 19:33:06] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:35:56,186 - INFO - 127.0.0.1 - - [21/Jul/2026 19:35:56] "GET /payments HTTP/1.1" 200 -
+2026-07-21 19:37:19,740 - INFO - 127.0.0.1 - - [21/Jul/2026 19:37:19] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:38:22,488 - INFO - 127.0.0.1 - - [21/Jul/2026 19:38:22] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:45:23,850 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 19:45:23,850 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 19:45:52,169 - INFO - 127.0.0.1 - - [21/Jul/2026 19:45:52] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:46:32,379 - INFO - 127.0.0.1 - - [21/Jul/2026 19:46:32] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:46:54,571 - INFO - 127.0.0.1 - - [21/Jul/2026 19:46:54] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:47:11,635 - INFO - 127.0.0.1 - - [21/Jul/2026 19:47:11] "GET /payments HTTP/1.1" 200 -
+2026-07-21 19:47:50,758 - INFO - 127.0.0.1 - - [21/Jul/2026 19:47:50] "[35m[1mPOST /payments HTTP/1.1[0m" 500 -
+2026-07-21 19:50:49,733 - ERROR - database is locked
+2026-07-21 19:50:49,735 - INFO - 127.0.0.1 - - [21/Jul/2026 19:50:49] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-21 19:51:28,957 - ERROR - database is locked
+2026-07-21 19:51:28,957 - INFO - 127.0.0.1 - - [21/Jul/2026 19:51:28] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-21 20:09:26,923 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 20:09:26,924 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 20:09:46,977 - INFO - Trainer Added : 1
+2026-07-21 20:09:46,979 - INFO - 127.0.0.1 - - [21/Jul/2026 20:09:46] "[35m[1mPOST /trainers HTTP/1.1[0m" 201 -
+2026-07-21 20:09:54,411 - INFO - 127.0.0.1 - - [21/Jul/2026 20:09:54] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 20:11:03,603 - INFO - Membership Added : 1
+2026-07-21 20:11:03,604 - INFO - 127.0.0.1 - - [21/Jul/2026 20:11:03] "[35m[1mPOST /memberships HTTP/1.1[0m" 201 -
+2026-07-21 20:11:10,004 - INFO - 127.0.0.1 - - [21/Jul/2026 20:11:10] "GET /memberships HTTP/1.1" 200 -
+2026-07-21 20:11:29,170 - INFO - Member Added Successfully : 1
+2026-07-21 20:11:29,170 - INFO - 127.0.0.1 - - [21/Jul/2026 20:11:29] "[35m[1mPOST /members HTTP/1.1[0m" 201 -
+2026-07-21 20:11:34,397 - INFO - 127.0.0.1 - - [21/Jul/2026 20:11:34] "GET /members HTTP/1.1" 200 -
+2026-07-21 20:11:47,203 - INFO - 127.0.0.1 - - [21/Jul/2026 20:11:47] "[31m[1mPOST /attendance HTTP/1.1[0m" 400 -
+2026-07-21 20:11:54,846 - INFO - Attendance Recorded : 1
+2026-07-21 20:11:54,847 - INFO - 127.0.0.1 - - [21/Jul/2026 20:11:54] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-21 20:12:00,993 - INFO - 127.0.0.1 - - [21/Jul/2026 20:12:00] "GET /attendance HTTP/1.1" 200 -
+2026-07-21 20:12:19,116 - INFO - 127.0.0.1 - - [21/Jul/2026 20:12:19] "POST /payments HTTP/1.1" 200 -
+2026-07-21 20:12:26,620 - INFO - 127.0.0.1 - - [21/Jul/2026 20:12:26] "GET /payments HTTP/1.1" 200 -
+2026-07-21 20:19:19,994 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 20:19:19,994 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 20:21:04,460 - INFO - 127.0.0.1 - - [21/Jul/2026 20:21:04] "POST /workouts HTTP/1.1" 200 -
+2026-07-21 20:21:19,979 - INFO - 127.0.0.1 - - [21/Jul/2026 20:21:19] "GET /workouts HTTP/1.1" 200 -
+2026-07-21 20:21:27,195 - INFO - 127.0.0.1 - - [21/Jul/2026 20:21:27] "GET /workouts/member/1 HTTP/1.1" 200 -
+2026-07-21 20:21:36,732 - INFO - 127.0.0.1 - - [21/Jul/2026 20:21:36] "[31m[1mGET /workouts/1 HTTP/1.1[0m" 405 -
+2026-07-21 20:23:05,553 - INFO - 127.0.0.1 - - [21/Jul/2026 20:23:05] "PUT /workouts/1 HTTP/1.1" 200 -
+2026-07-21 20:23:33,157 - INFO - 127.0.0.1 - - [21/Jul/2026 20:23:33] "DELETE /workouts/1 HTTP/1.1" 200 -
+2026-07-21 20:23:42,588 - INFO - 127.0.0.1 - - [21/Jul/2026 20:23:42] "[31m[1mGET /workouts/1 HTTP/1.1[0m" 405 -
+2026-07-21 20:23:52,512 - INFO - 127.0.0.1 - - [21/Jul/2026 20:23:52] "[33mDELETE /workouts/1 HTTP/1.1[0m" 404 -
+2026-07-21 20:25:21,340 - INFO - 127.0.0.1 - - [21/Jul/2026 20:25:21] "[33mDELETE /workouts/3 HTTP/1.1[0m" 404 -
+2026-07-21 20:26:52,675 - INFO - 127.0.0.1 - - [21/Jul/2026 20:26:52] "[31m[1mPOST /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-21 20:27:51,172 - INFO - 127.0.0.1 - - [21/Jul/2026 20:27:51] "POST /workouts HTTP/1.1" 200 -
+2026-07-21 20:28:15,671 - INFO - 127.0.0.1 - - [21/Jul/2026 20:28:15] "GET /workouts HTTP/1.1" 200 -
+2026-07-21 20:29:12,644 - INFO - 127.0.0.1 - - [21/Jul/2026 20:29:12] "GET /workouts HTTP/1.1" 200 -
+2026-07-21 20:29:17,211 - INFO - 127.0.0.1 - - [21/Jul/2026 20:29:17] "POST /workouts HTTP/1.1" 200 -
+2026-07-21 20:29:42,411 - INFO - 127.0.0.1 - - [21/Jul/2026 20:29:42] "GET /workouts HTTP/1.1" 200 -
+2026-07-21 20:30:28,834 - INFO - 127.0.0.1 - - [21/Jul/2026 20:30:28] "PUT /workouts/3 HTTP/1.1" 200 -
+2026-07-21 20:31:27,195 - INFO - 127.0.0.1 - - [21/Jul/2026 20:31:27] "DELETE /workouts/3 HTTP/1.1" 200 -
+2026-07-21 20:31:39,972 - INFO - 127.0.0.1 - - [21/Jul/2026 20:31:39] "[31m[1mGET /workouts/3 HTTP/1.1[0m" 405 -
+2026-07-21 20:32:39,783 - INFO - 127.0.0.1 - - [21/Jul/2026 20:32:39] "GET /workouts/member/1 HTTP/1.1" 200 -
+2026-07-21 20:35:09,357 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 20:35:09,357 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 20:35:22,275 - INFO - 127.0.0.1 - - [21/Jul/2026 20:35:22] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-21 20:39:22,839 - INFO - 127.0.0.1 - - [21/Jul/2026 20:39:22] "[33mGET /analytics/revenue HTTP/1.1[0m" 404 -
+2026-07-21 20:40:05,072 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 20:40:05,073 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 20:40:18,954 - INFO - 127.0.0.1 - - [21/Jul/2026 20:40:18] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-21 20:40:37,377 - INFO - 127.0.0.1 - - [21/Jul/2026 20:40:37] "GET /analytics/bmi HTTP/1.1" 200 -
+2026-07-21 20:40:41,149 - INFO - 127.0.0.1 - - [21/Jul/2026 20:40:41] "GET /analytics/bmi HTTP/1.1" 200 -
+2026-07-21 20:40:59,224 - INFO - 127.0.0.1 - - [21/Jul/2026 20:40:59] "GET /analytics/attendance HTTP/1.1" 200 -
+2026-07-21 20:44:06,137 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 20:44:06,137 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 20:44:13,263 - INFO - 127.0.0.1 - - [21/Jul/2026 20:44:13] "GET /dashboard HTTP/1.1" 200 -
+2026-07-21 20:45:59,813 - INFO - 127.0.0.1 - - [21/Jul/2026 20:45:59] "GET / HTTP/1.1" 200 -
+2026-07-21 20:47:04,793 - INFO - 127.0.0.1 - - [21/Jul/2026 20:47:04] "GET / HTTP/1.1" 200 -
+2026-07-21 20:47:04,819 - INFO - 127.0.0.1 - - [21/Jul/2026 20:47:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-21 21:10:33,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 21:10:33,826 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 21:11:07,318 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:07] "GET / HTTP/1.1" 200 -
+2026-07-21 21:11:07,335 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:11:07,426 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-21 21:11:15,232 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:15] "GET /dashboard HTTP/1.1" 200 -
+2026-07-21 21:11:22,183 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:22] "GET / HTTP/1.1" 200 -
+2026-07-21 21:11:22,197 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:11:22,198 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:11:22,210 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:22] "GET /dashboard HTTP/1.1" 200 -
+2026-07-21 21:11:24,346 - INFO - 127.0.0.1 - - [21/Jul/2026 21:11:24] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:17:17,192 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 21:17:17,192 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 21:18:14,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 21:18:14,797 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 21:18:22,118 - INFO - 127.0.0.1 - - [21/Jul/2026 21:18:22] "GET / HTTP/1.1" 200 -
+2026-07-21 21:18:22,142 - INFO - 127.0.0.1 - - [21/Jul/2026 21:18:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:18:22,198 - INFO - 127.0.0.1 - - [21/Jul/2026 21:18:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-21 21:18:22,207 - INFO - 127.0.0.1 - - [21/Jul/2026 21:18:22] "GET /dashboard HTTP/1.1" 200 -
+2026-07-21 21:22:21,481 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-21 21:22:21,481 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-21 21:22:35,898 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:35] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:22:42,414 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:42] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:22:42,425 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:42] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:22:42,467 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:22:42,471 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:42] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:22:47,351 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:47] "GET /memberships HTTP/1.1" 200 -
+2026-07-21 21:22:49,750 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:49] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:22:49,763 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:22:49,764 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:22:49,778 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:49] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:22:51,914 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:51] "GET / HTTP/1.1" 200 -
+2026-07-21 21:22:51,922 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:22:51,923 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:22:51,940 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:51] "GET /dashboard HTTP/1.1" 200 -
+2026-07-21 21:22:53,265 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:53] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:22:53,274 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:22:53,275 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:22:53,286 - INFO - 127.0.0.1 - - [21/Jul/2026 21:22:53] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:23:40,884 - INFO - 127.0.0.1 - - [21/Jul/2026 21:23:40] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:23:40,894 - INFO - 127.0.0.1 - - [21/Jul/2026 21:23:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:23:40,894 - INFO - 127.0.0.1 - - [21/Jul/2026 21:23:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:23:40,903 - INFO - 127.0.0.1 - - [21/Jul/2026 21:23:40] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:28:11,598 - INFO - 127.0.0.1 - - [21/Jul/2026 21:28:11] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:28:11,609 - INFO - 127.0.0.1 - - [21/Jul/2026 21:28:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:28:11,610 - INFO - 127.0.0.1 - - [21/Jul/2026 21:28:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:28:11,618 - INFO - 127.0.0.1 - - [21/Jul/2026 21:28:11] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:33:15,230 - INFO - 127.0.0.1 - - [21/Jul/2026 21:33:15] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:33:15,240 - INFO - 127.0.0.1 - - [21/Jul/2026 21:33:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:33:15,241 - INFO - 127.0.0.1 - - [21/Jul/2026 21:33:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:33:15,251 - INFO - 127.0.0.1 - - [21/Jul/2026 21:33:15] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:55:12,884 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:12] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:55:12,944 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:55:12,948 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:55:12,989 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:12] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:55:15,782 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:15] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:55:15,810 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:55:15,811 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:55:15,824 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:15] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:55:17,085 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:17] "GET / HTTP/1.1" 200 -
+2026-07-21 21:55:17,107 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:55:17,110 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:55:17,133 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:17] "GET /dashboard HTTP/1.1" 200 -
+2026-07-21 21:55:18,798 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:18] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:55:18,813 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:55:18,815 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:55:18,827 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:18] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:55:20,652 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:20] "GET / HTTP/1.1" 200 -
+2026-07-21 21:55:20,677 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:55:20,680 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:55:20,699 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:20] "GET /dashboard HTTP/1.1" 200 -
+2026-07-21 21:55:24,506 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:24] "GET /members-page HTTP/1.1" 200 -
+2026-07-21 21:55:24,528 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-21 21:55:24,530 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-21 21:55:24,548 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:24] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:55:26,718 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:26] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 21:55:26,718 - INFO - 127.0.0.1 - - [21/Jul/2026 21:55:26] "GET /memberships HTTP/1.1" 200 -
+2026-07-21 21:56:04,311 - INFO - Member Added Successfully : 2
+2026-07-21 21:56:04,312 - INFO - 127.0.0.1 - - [21/Jul/2026 21:56:04] "[35m[1mPOST /members HTTP/1.1[0m" 201 -
+2026-07-21 21:56:06,464 - INFO - 127.0.0.1 - - [21/Jul/2026 21:56:06] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:56:12,997 - INFO - Member Deleted : 2
+2026-07-21 21:56:12,998 - INFO - 127.0.0.1 - - [21/Jul/2026 21:56:12] "DELETE /members/2 HTTP/1.1" 200 -
+2026-07-21 21:56:15,847 - INFO - 127.0.0.1 - - [21/Jul/2026 21:56:15] "GET /members HTTP/1.1" 200 -
+2026-07-21 21:57:04,323 - INFO - 127.0.0.1 - - [21/Jul/2026 21:57:04] "GET /members/1 HTTP/1.1" 200 -
+2026-07-21 21:57:04,335 - INFO - 127.0.0.1 - - [21/Jul/2026 21:57:04] "GET /trainers HTTP/1.1" 200 -
+2026-07-21 21:57:04,337 - INFO - 127.0.0.1 - - [21/Jul/2026 21:57:04] "GET /memberships HTTP/1.1" 200 -
+2026-07-21 21:57:28,457 - INFO - Member Updated : 1
+2026-07-21 21:57:28,458 - INFO - 127.0.0.1 - - [21/Jul/2026 21:57:28] "PUT /members/1 HTTP/1.1" 200 -
+2026-07-21 21:57:30,701 - INFO - 127.0.0.1 - - [21/Jul/2026 21:57:30] "GET /members HTTP/1.1" 200 -
+2026-07-22 11:44:21,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 11:44:21,518 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:00:40,066 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 18:00:40,068 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:04:02,005 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 18:04:02,006 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:04:56,012 - INFO - 127.0.0.1 - - [22/Jul/2026 18:04:56] "GET / HTTP/1.1" 200 -
+2026-07-22 18:04:56,053 - INFO - 127.0.0.1 - - [22/Jul/2026 18:04:56] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:04:56,232 - INFO - 127.0.0.1 - - [22/Jul/2026 18:04:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:04:56,252 - INFO - 127.0.0.1 - - [22/Jul/2026 18:04:56] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 18:04:56,444 - INFO - 127.0.0.1 - - [22/Jul/2026 18:04:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-22 18:05:04,237 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:04] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:05:04,254 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:05:04,255 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:04] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:05:04,270 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:04] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:05:07,772 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:07] "GET /members/1 HTTP/1.1" 200 -
+2026-07-22 18:05:07,785 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:07] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:05:07,789 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:07] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:05:37,876 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:37] "GET / HTTP/1.1" 200 -
+2026-07-22 18:05:37,904 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:37] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:05:37,904 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:05:38,055 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:38] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 18:05:50,973 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:50] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:05:54,334 - INFO - 127.0.0.1 - - [22/Jul/2026 18:05:54] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:18:41,891 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:41] "GET / HTTP/1.1" 200 -
+2026-07-22 18:18:41,915 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:18:41,920 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:18:41,936 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:41] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 18:18:45,466 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:45] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:18:45,495 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:18:45,495 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:18:45,510 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:45] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:18:49,240 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:49] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:18:53,243 - INFO - 127.0.0.1 - - [22/Jul/2026 18:18:53] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:24:39,210 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 18:24:39,210 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:25:27,414 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:27] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:25:27,433 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:27] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:25:27,586 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:25:27,600 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:27] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:25:28,457 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:25:28,481 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:25:28,481 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:25:28,503 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:25:28,636 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:25:28,651 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:25:28,653 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:25:28,673 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:25:28,862 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:25:28,877 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:25:28,879 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:25:28,893 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:28] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:25:31,567 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:31] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:25:34,802 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:34] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:25:37,906 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:37] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:25:41,092 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:41] "GET /payments HTTP/1.1" 200 -
+2026-07-22 18:25:44,368 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:44] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:25:47,706 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:47] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:25:51,111 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:51] "GET / HTTP/1.1" 200 -
+2026-07-22 18:25:51,125 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:25:51,127 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:25:51,166 - INFO - 127.0.0.1 - - [22/Jul/2026 18:25:51] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 18:29:31,220 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 18:29:31,220 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:30:21,772 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:21] "GET / HTTP/1.1" 200 -
+2026-07-22 18:30:21,850 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:21] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:30:21,961 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:30:21,976 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:21] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 18:30:41,774 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:41] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:30:41,790 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:30:41,796 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:30:41,817 - INFO - 127.0.0.1 - - [22/Jul/2026 18:30:41] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:31:05,764 - INFO - 127.0.0.1 - - [22/Jul/2026 18:31:05] "[33mGET /trainers-page HTTP/1.1[0m" 404 -
+2026-07-22 18:31:44,379 - INFO - 127.0.0.1 - - [22/Jul/2026 18:31:44] "[33mGET /memberships-page HTTP/1.1[0m" 404 -
+2026-07-22 18:33:04,178 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:04] "[33mGET /memberships-page HTTP/1.1[0m" 404 -
+2026-07-22 18:33:12,500 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 18:33:12,500 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:33:17,243 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:17] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 18:33:17,263 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:33:17,413 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:33:17,427 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:17] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:33:32,694 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:32] "GET / HTTP/1.1" 200 -
+2026-07-22 18:33:32,708 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:33:32,710 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:32] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:33:32,726 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:32] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 18:33:33,717 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:33] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:33:33,730 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:33:33,731 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:33:33,747 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:33] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:33:35,007 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:35] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:33:41,024 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:41] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:33:46,552 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:46] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:33:50,705 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:50] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:33:50,718 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:33:50,719 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:50] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:33:50,735 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:50] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:33:52,241 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:52] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:33:56,019 - INFO - 127.0.0.1 - - [22/Jul/2026 18:33:56] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:34:01,733 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:01] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:34:07,033 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:07] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:34:26,378 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:26] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 18:34:26,439 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:34:26,442 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:34:26,466 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:26] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:34:36,865 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:36] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 18:34:36,936 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:34:36,937 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:34:36,965 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:36] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:34:49,514 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:49] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 18:34:49,581 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:34:49,589 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:34:49,610 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:49] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:34:51,213 - INFO - 127.0.0.1 - - [22/Jul/2026 18:34:51] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:35:11,629 - INFO - Attendance Recorded : 2
+2026-07-22 18:35:11,630 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:11] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-22 18:35:13,618 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:13] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:35:18,633 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:18] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:35:18,647 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:35:18,649 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:18] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:35:18,659 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:18] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:35:20,664 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:20] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:35:24,958 - INFO - 127.0.0.1 - - [22/Jul/2026 18:35:24] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:36:23,028 - INFO - 127.0.0.1 - - [22/Jul/2026 18:36:23] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:38:22,819 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:22] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 18:38:22,835 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:22,835 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:22,848 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:22] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:38:24,701 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:24] "GET / HTTP/1.1" 200 -
+2026-07-22 18:38:24,721 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:24,721 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:24,741 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:24] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 18:38:25,846 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:25] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:38:25,869 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:25,869 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:25,887 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:25] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:38:26,927 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:26] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 18:38:26,946 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:26] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:26,947 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:26,973 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:26] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:38:28,075 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:28] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 18:38:28,087 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:28,088 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:28] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:28,105 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:28] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:38:29,158 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:29] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 18:38:29,174 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:29] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:29,176 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:29,190 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:29] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:38:30,228 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:30] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 18:38:30,246 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:30,247 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:30,260 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:30] "GET /payments HTTP/1.1" 200 -
+2026-07-22 18:38:32,159 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:32] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 18:38:32,177 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:32] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:32,179 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:32,189 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:32] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:38:33,162 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:33] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 18:38:33,175 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:33,175 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:33,184 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:33] "GET /payments HTTP/1.1" 200 -
+2026-07-22 18:38:34,011 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:34] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 18:38:34,024 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:34,025 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:34,036 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:34] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:38:35,903 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:35] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:37,866 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:37] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:38,830 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:38] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:38,976 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:38] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:39,177 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:39] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:39,315 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:39] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:39,494 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:39] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:39,663 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:39] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:39,859 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:39] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:40,072 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:40] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:40,557 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:40] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:40,790 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:40] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:41,025 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:41] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:41,252 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:41] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:41,538 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:41] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:41,747 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:41] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:47,420 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:47] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:47,961 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:47] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:48,096 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:48] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:48,310 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:48] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:49,554 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:49] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:49,936 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:49] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:38:52,543 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:52] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 18:38:52,560 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:52] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:38:52,563 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:38:52,579 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:52] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:38:54,782 - INFO - 127.0.0.1 - - [22/Jul/2026 18:38:54] "GET /memberships/1 HTTP/1.1" 200 -
+2026-07-22 18:39:00,173 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:00] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 18:39:00,186 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:00,188 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:00] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:00,205 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:00] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:39:03,664 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:03] "GET /trainers/1 HTTP/1.1" 200 -
+2026-07-22 18:39:08,036 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:08] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 18:39:08,047 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:08] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:08,049 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:08,063 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:08] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:39:10,814 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:10] "GET /memberships/1 HTTP/1.1" 200 -
+2026-07-22 18:39:14,700 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:14] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 18:39:14,719 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:14] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:14,721 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:14,729 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:14] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:39:17,036 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:17] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:17,667 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:17] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:17,833 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:17] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:18,254 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:18] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:18,561 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:18] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:18,691 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:18] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:18,897 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:18] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:20,475 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:20] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 18:39:20,485 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:20,486 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:20,499 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:20] "GET /payments HTTP/1.1" 200 -
+2026-07-22 18:39:22,444 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:22] "[31m[1mGET /payments/1 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:25,736 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:25] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 18:39:25,757 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:25,757 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:25,772 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:25] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:39:27,835 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:27] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:28,967 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:28] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:30,632 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:30] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 18:39:30,643 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:30,644 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:30,659 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:30] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:39:30,665 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:30] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:39:30,669 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:30] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:39:30,676 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:30] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:39:35,327 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:35] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 18:39:35,344 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:35,347 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:35,367 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:35] "GET /payments HTTP/1.1" 200 -
+2026-07-22 18:39:38,131 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:38] "[31m[1mGET /payments/1 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:39,955 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:39] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 18:39:39,970 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:39,973 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:39] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:39,991 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:39] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:39:41,650 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:41] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:42,541 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:42] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:44,587 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:44] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 18:39:44,601 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:44,602 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:44,611 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:44] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:39:47,014 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:47] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:39:49,041 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:49] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 18:39:49,056 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:39:49,056 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:39:49,071 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:39:49,077 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:39:49,082 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:39:49,086 - INFO - 127.0.0.1 - - [22/Jul/2026 18:39:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:40:19,086 - INFO - 127.0.0.1 - - [22/Jul/2026 18:40:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:40:19,093 - INFO - 127.0.0.1 - - [22/Jul/2026 18:40:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:40:19,100 - INFO - 127.0.0.1 - - [22/Jul/2026 18:40:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:40:49,097 - INFO - 127.0.0.1 - - [22/Jul/2026 18:40:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:40:49,101 - INFO - 127.0.0.1 - - [22/Jul/2026 18:40:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:40:49,106 - INFO - 127.0.0.1 - - [22/Jul/2026 18:40:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:41:19,092 - INFO - 127.0.0.1 - - [22/Jul/2026 18:41:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:41:19,097 - INFO - 127.0.0.1 - - [22/Jul/2026 18:41:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:41:19,104 - INFO - 127.0.0.1 - - [22/Jul/2026 18:41:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:41:49,086 - INFO - 127.0.0.1 - - [22/Jul/2026 18:41:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:41:49,091 - INFO - 127.0.0.1 - - [22/Jul/2026 18:41:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:41:49,096 - INFO - 127.0.0.1 - - [22/Jul/2026 18:41:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:42:19,094 - INFO - 127.0.0.1 - - [22/Jul/2026 18:42:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:42:19,100 - INFO - 127.0.0.1 - - [22/Jul/2026 18:42:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:42:19,105 - INFO - 127.0.0.1 - - [22/Jul/2026 18:42:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:42:49,091 - INFO - 127.0.0.1 - - [22/Jul/2026 18:42:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:42:49,096 - INFO - 127.0.0.1 - - [22/Jul/2026 18:42:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:42:49,102 - INFO - 127.0.0.1 - - [22/Jul/2026 18:42:49] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:43:19,093 - INFO - 127.0.0.1 - - [22/Jul/2026 18:43:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:43:19,097 - INFO - 127.0.0.1 - - [22/Jul/2026 18:43:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:43:19,103 - INFO - 127.0.0.1 - - [22/Jul/2026 18:43:19] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:44:06,090 - INFO - 127.0.0.1 - - [22/Jul/2026 18:44:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:44:06,095 - INFO - 127.0.0.1 - - [22/Jul/2026 18:44:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:44:06,099 - INFO - 127.0.0.1 - - [22/Jul/2026 18:44:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:45:06,094 - INFO - 127.0.0.1 - - [22/Jul/2026 18:45:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:45:06,100 - INFO - 127.0.0.1 - - [22/Jul/2026 18:45:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:45:06,105 - INFO - 127.0.0.1 - - [22/Jul/2026 18:45:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:46:06,117 - INFO - 127.0.0.1 - - [22/Jul/2026 18:46:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:46:06,124 - INFO - 127.0.0.1 - - [22/Jul/2026 18:46:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:46:06,131 - INFO - 127.0.0.1 - - [22/Jul/2026 18:46:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:47:06,091 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:47:06,097 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:47:06,101 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:06] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:47:12,412 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:12] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:47:30,106 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 18:47:30,107 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:47:39,175 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:39] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:47:39,182 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:39] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:47:39,187 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:39] "[33mGET /analytics HTTP/1.1[0m" 404 -
+2026-07-22 18:47:41,117 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:41] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 18:47:41,130 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:41] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:47:41,280 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:47:41,296 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:41] "GET /analytics/attendance HTTP/1.1" 200 -
+2026-07-22 18:47:41,298 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:41] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:47:41,300 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:41] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:47:41,315 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:41] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:47:44,321 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:44] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 18:47:44,343 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:47:44,346 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:47:44,359 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:44] "GET /analytics/attendance HTTP/1.1" 200 -
+2026-07-22 18:47:44,360 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:44] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:47:44,360 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:44] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:47:44,371 - INFO - 127.0.0.1 - - [22/Jul/2026 18:47:44] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:48:15,090 - INFO - 127.0.0.1 - - [22/Jul/2026 18:48:15] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:48:15,091 - INFO - 127.0.0.1 - - [22/Jul/2026 18:48:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:48:15,102 - INFO - 127.0.0.1 - - [22/Jul/2026 18:48:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:48:45,099 - INFO - 127.0.0.1 - - [22/Jul/2026 18:48:45] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:48:45,101 - INFO - 127.0.0.1 - - [22/Jul/2026 18:48:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:48:45,113 - INFO - 127.0.0.1 - - [22/Jul/2026 18:48:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:49:15,097 - INFO - 127.0.0.1 - - [22/Jul/2026 18:49:15] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:49:15,099 - INFO - 127.0.0.1 - - [22/Jul/2026 18:49:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:49:15,113 - INFO - 127.0.0.1 - - [22/Jul/2026 18:49:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:49:45,089 - INFO - 127.0.0.1 - - [22/Jul/2026 18:49:45] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:49:45,091 - INFO - 127.0.0.1 - - [22/Jul/2026 18:49:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:49:45,102 - INFO - 127.0.0.1 - - [22/Jul/2026 18:49:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:50:15,097 - INFO - 127.0.0.1 - - [22/Jul/2026 18:50:15] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:50:15,098 - INFO - 127.0.0.1 - - [22/Jul/2026 18:50:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:50:15,107 - INFO - 127.0.0.1 - - [22/Jul/2026 18:50:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:50:45,090 - INFO - 127.0.0.1 - - [22/Jul/2026 18:50:45] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:50:45,092 - INFO - 127.0.0.1 - - [22/Jul/2026 18:50:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:50:45,099 - INFO - 127.0.0.1 - - [22/Jul/2026 18:50:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:51:15,096 - INFO - 127.0.0.1 - - [22/Jul/2026 18:51:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:51:15,098 - INFO - 127.0.0.1 - - [22/Jul/2026 18:51:15] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:51:15,111 - INFO - 127.0.0.1 - - [22/Jul/2026 18:51:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:52:06,098 - INFO - 127.0.0.1 - - [22/Jul/2026 18:52:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:52:06,099 - INFO - 127.0.0.1 - - [22/Jul/2026 18:52:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:52:06,111 - INFO - 127.0.0.1 - - [22/Jul/2026 18:52:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:53:06,089 - INFO - 127.0.0.1 - - [22/Jul/2026 18:53:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:53:06,089 - INFO - 127.0.0.1 - - [22/Jul/2026 18:53:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:53:06,097 - INFO - 127.0.0.1 - - [22/Jul/2026 18:53:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:54:06,102 - INFO - 127.0.0.1 - - [22/Jul/2026 18:54:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:54:06,103 - INFO - 127.0.0.1 - - [22/Jul/2026 18:54:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:54:06,112 - INFO - 127.0.0.1 - - [22/Jul/2026 18:54:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:55:06,102 - INFO - 127.0.0.1 - - [22/Jul/2026 18:55:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:55:06,104 - INFO - 127.0.0.1 - - [22/Jul/2026 18:55:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:55:06,112 - INFO - 127.0.0.1 - - [22/Jul/2026 18:55:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:08,602 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 18:56:08,602 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 18:56:20,162 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:20] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 18:56:20,223 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:20,342 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:20,357 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:20] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:20,368 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:20] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:20,377 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:20] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:24,086 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:24] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 18:56:24,111 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:24,113 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:24,128 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:24] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:24,137 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:24] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:24,147 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:24] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:30,963 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:30] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 18:56:30,978 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:30,979 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:31,039 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:31] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:56:33,742 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:33] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:56:34,659 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:34] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 18:56:36,285 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:36] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 18:56:36,306 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:36,309 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:36,320 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:36] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:36,329 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:36] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:36,336 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:36] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:56:40,010 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:40] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 18:56:40,028 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:40,028 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:40,040 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:40] "GET /members HTTP/1.1" 200 -
+2026-07-22 18:56:42,695 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:42] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 18:56:42,709 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:42] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:42,711 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:42,722 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:42] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 18:56:44,497 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:44] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 18:56:44,512 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:44,512 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:44,526 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:44] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 18:56:47,501 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:47] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 18:56:47,519 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:47] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:47,521 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:47,536 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:47] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 18:56:49,349 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:49] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 18:56:49,361 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:49,363 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:49] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:49,372 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:49] "GET /payments HTTP/1.1" 200 -
+2026-07-22 18:56:51,298 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:51] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 18:56:51,314 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 18:56:51,315 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:51] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 18:56:51,324 - INFO - 127.0.0.1 - - [22/Jul/2026 18:56:51] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 18:57:06,094 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:57:06,096 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:57:06,109 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:57:18,482 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:18] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:57:18,485 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:18] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:57:18,497 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:18] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:57:45,088 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:45] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:57:45,091 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:57:45,100 - INFO - 127.0.0.1 - - [22/Jul/2026 18:57:45] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:58:15,098 - INFO - 127.0.0.1 - - [22/Jul/2026 18:58:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:58:15,099 - INFO - 127.0.0.1 - - [22/Jul/2026 18:58:15] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:58:15,108 - INFO - 127.0.0.1 - - [22/Jul/2026 18:58:15] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:59:06,090 - INFO - 127.0.0.1 - - [22/Jul/2026 18:59:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 18:59:06,091 - INFO - 127.0.0.1 - - [22/Jul/2026 18:59:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 18:59:06,103 - INFO - 127.0.0.1 - - [22/Jul/2026 18:59:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:00:06,096 - INFO - 127.0.0.1 - - [22/Jul/2026 19:00:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 19:00:06,097 - INFO - 127.0.0.1 - - [22/Jul/2026 19:00:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:00:06,109 - INFO - 127.0.0.1 - - [22/Jul/2026 19:00:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:01:06,092 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 19:01:06,093 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:01:06,100 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:01:33,673 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 19:01:33,673 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 19:01:48,413 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:48] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 19:01:48,428 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:01:48,587 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:01:48,603 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:48] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:01:48,618 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:48] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:01:48,635 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:48] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:01:52,065 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:52] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 19:01:52,079 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:01:52,080 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:52] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:01:52,095 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:52] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:01:55,083 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:55] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 19:01:55,098 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:01:55,099 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:01:55,115 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:55] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 19:01:57,197 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:57] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:01:57,215 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:01:57,216 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:01:57,231 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:57] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:01:58,969 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:58] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:01:59,381 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:59] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:01:59,610 - INFO - 127.0.0.1 - - [22/Jul/2026 19:01:59] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:02:01,965 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:01] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:02:01,976 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:01,978 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:01,987 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:01] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:02:03,791 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:03] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 19:02:03,810 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:03,810 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:03,823 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:03] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 19:02:06,107 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:06,108 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:06] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 19:02:06,122 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:06] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:06,571 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:06] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 19:02:06,589 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:06,592 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:06] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:06,605 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:06] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 19:02:08,872 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:08] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:02:10,589 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:10] "GET / HTTP/1.1" 200 -
+2026-07-22 19:02:10,608 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:10,608 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:10,622 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:10] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:02:15,192 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:15] "GET / HTTP/1.1" 200 -
+2026-07-22 19:02:15,209 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:15,210 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:15,220 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:15] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:02:17,058 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:17] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 19:02:17,073 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:17,073 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:17,092 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:17] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:17,101 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:17] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:17,109 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:17] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:19,740 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:19] "GET / HTTP/1.1" 200 -
+2026-07-22 19:02:19,757 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:19,760 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:19] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:19,774 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:19] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:02:21,471 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:21] "GET / HTTP/1.1" 200 -
+2026-07-22 19:02:21,494 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:21,496 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:21] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:21,516 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:21] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:02:25,829 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:25] "GET /analytics/revenue HTTP/1.1" 200 -
+2026-07-22 19:02:25,833 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:25] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:25,847 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:25] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:43,488 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:43] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 19:02:43,508 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:43,509 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:43] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:43,521 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:43] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:43,529 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:43] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:43,535 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:43] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:02:45,145 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:45] "GET / HTTP/1.1" 200 -
+2026-07-22 19:02:45,164 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:02:45,165 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:02:45,181 - INFO - 127.0.0.1 - - [22/Jul/2026 19:02:45] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:08:33,104 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 19:08:33,104 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 19:08:52,251 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:52] "GET / HTTP/1.1" 200 -
+2026-07-22 19:08:52,279 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:52] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:08:52,420 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:08:52,433 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:52] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:08:53,439 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:53] "GET / HTTP/1.1" 200 -
+2026-07-22 19:08:53,460 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:08:53,460 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:08:53,473 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:53] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:08:55,051 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:55] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:08:55,071 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:08:55,072 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:08:55,084 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:55] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:08:56,903 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:56] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:08:56,916 - INFO - 127.0.0.1 - - [22/Jul/2026 19:08:56] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:09:04,166 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:04] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:09:04,183 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:04] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:09:18,252 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:19,472 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:19] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:20,013 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:20] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:20,167 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:20] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:20,345 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:20] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:20,905 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:20] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:21,289 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:21] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:21,462 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:21] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:21,624 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:21] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:21,780 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:21] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:21,954 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:21] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:22,092 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:22] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:22,246 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:22] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:22,410 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:22] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:22,595 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:22] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:22,751 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:22] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:22,939 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:22] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:23,099 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:23] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:23,313 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:23] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:26,101 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:26] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:09:26,110 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:26] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:09:39,035 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:39] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:39,512 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:39] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:39,814 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:39] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:40,014 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:40] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:40,225 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:40] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:09:40,436 - INFO - 127.0.0.1 - - [22/Jul/2026 19:09:40] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:14:13,417 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 19:14:13,417 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 19:18:10,886 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 19:18:10,886 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 19:18:16,720 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:16] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:17,817 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:17] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:18,127 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:18,275 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:18,408 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:18,583 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:18,719 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:18,867 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:18,982 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:18] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:19,182 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:19] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:26,241 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:26] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:26,386 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:26] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:26,545 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:26] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:26,679 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:26] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:26,844 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:26] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:26,997 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:26] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:27,155 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:27] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:27,297 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:27] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:27,458 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:27] "[35m[1mPUT /payments/1 HTTP/1.1[0m" 500 -
+2026-07-22 19:18:58,215 - INFO - 127.0.0.1 - - [22/Jul/2026 19:18:58] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:21:24,593 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 19:21:24,593 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 19:21:33,809 - INFO - 127.0.0.1 - - [22/Jul/2026 19:21:33] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:21:33,831 - INFO - 127.0.0.1 - - [22/Jul/2026 19:21:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:21:33,970 - INFO - 127.0.0.1 - - [22/Jul/2026 19:21:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:21:33,985 - INFO - 127.0.0.1 - - [22/Jul/2026 19:21:33] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:21:36,549 - INFO - 127.0.0.1 - - [22/Jul/2026 19:21:36] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:21:36,566 - INFO - 127.0.0.1 - - [22/Jul/2026 19:21:36] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:28:30,125 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 19:28:30,125 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 19:28:37,237 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:37] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:28:37,254 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:37] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:28:37,362 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:28:37,371 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:37] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:28:40,528 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:40] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:28:40,541 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:40] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:28:46,875 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:46] "PUT /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:28:48,908 - INFO - 127.0.0.1 - - [22/Jul/2026 19:28:48] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:30:04,117 - INFO - 127.0.0.1 - - [22/Jul/2026 19:30:04] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:30:04,131 - INFO - 127.0.0.1 - - [22/Jul/2026 19:30:04] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:30:08,811 - INFO - 127.0.0.1 - - [22/Jul/2026 19:30:08] "PUT /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:30:11,895 - INFO - 127.0.0.1 - - [22/Jul/2026 19:30:11] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:30:59,287 - INFO - 127.0.0.1 - - [22/Jul/2026 19:30:59] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:30:59,300 - INFO - 127.0.0.1 - - [22/Jul/2026 19:30:59] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:31:04,870 - INFO - 127.0.0.1 - - [22/Jul/2026 19:31:04] "PUT /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:31:07,446 - INFO - 127.0.0.1 - - [22/Jul/2026 19:31:07] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:31:22,340 - INFO - 127.0.0.1 - - [22/Jul/2026 19:31:22] "GET /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:31:22,351 - INFO - 127.0.0.1 - - [22/Jul/2026 19:31:22] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:31:23,673 - INFO - 127.0.0.1 - - [22/Jul/2026 19:31:23] "PUT /payments/1 HTTP/1.1" 200 -
+2026-07-22 19:31:28,720 - INFO - 127.0.0.1 - - [22/Jul/2026 19:31:28] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:43:15,149 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:15] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:43:15,176 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:15] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:15,186 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:15,202 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:15] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:43:17,442 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:17] "GET / HTTP/1.1" 200 -
+2026-07-22 19:43:17,459 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:17,464 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:17] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:17,477 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:17] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:43:19,849 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:19] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 19:43:19,871 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:19] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:19,872 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:19,886 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:19] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:43:21,630 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:21] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 19:43:21,650 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:21] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:21,653 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:21,665 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:21] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 19:43:22,498 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:22] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 19:43:22,518 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:22] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:22,521 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:22,533 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:22] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 19:43:23,239 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:23] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:43:23,260 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:23] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:23,261 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:23,273 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:23] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:43:24,792 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:24] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:43:24,813 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:24,815 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:24,838 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:24] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:43:25,942 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:25] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:43:25,955 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:25,957 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:25] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:25,970 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:25] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:43:32,260 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:32] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:43:32,287 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:32,289 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:32] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:32,303 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:32] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:43:33,651 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:33] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 19:43:33,671 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:33,671 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:33,683 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:33] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 19:43:34,867 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:34] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 19:43:34,888 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:34,888 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:34,904 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:34] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:43:34,911 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:34] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:43:34,918 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:34] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:43:35,915 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:35] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 19:43:35,929 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:35,931 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:35,942 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:35] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 19:43:38,092 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:38] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:43:38,991 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:38] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:43:40,504 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:40] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 19:43:40,525 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:40,525 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:40,543 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:40] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:43:40,552 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:40] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:43:40,562 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:40] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:43:44,342 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:44] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 19:43:44,362 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:43:44,363 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:44] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:43:44,382 - INFO - 127.0.0.1 - - [22/Jul/2026 19:43:44] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 19:45:50,677 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:50] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:45:50,696 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:50] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:45:50,698 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:45:50,722 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:50] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:45:54,659 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:54] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:55,965 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:55] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:56,509 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:56] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:56,681 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:56] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:56,854 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:56] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:57,003 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:57] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:57,151 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:57] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:57,333 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:57] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:57,456 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:57] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:57,611 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:57] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:57,759 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:57] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:57,961 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:57] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:58,128 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:58] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:58,294 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:58] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:58,446 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:58] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:58,605 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:58] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:58,763 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:58] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:58,937 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:58] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:59,096 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:59] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:59,256 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:59] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:45:59,471 - INFO - 127.0.0.1 - - [22/Jul/2026 19:45:59] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:48:10,588 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:10] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 19:48:10,606 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:48:10,607 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:48:10,618 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:10] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:48:10,627 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:10] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:48:10,634 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:10] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:48:13,953 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:13] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:48:13,974 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:13] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:48:13,976 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:48:13,994 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:13] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:48:14,847 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:14] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:48:14,867 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:14] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:48:14,868 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:48:14,879 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:14] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:48:16,926 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:16] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:48:17,593 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:17] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:48:17,814 - INFO - 127.0.0.1 - - [22/Jul/2026 19:48:17] "[31m[1mGET /attendance/2 HTTP/1.1[0m" 405 -
+2026-07-22 19:49:31,119 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:31] "GET / HTTP/1.1" 200 -
+2026-07-22 19:49:31,131 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:31] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:31,131 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:31,148 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:31] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:49:32,455 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:32] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 19:49:32,469 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:32] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:32,470 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:32,479 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:32] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:49:33,540 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:33] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 19:49:33,552 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:33] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:33,552 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:33,560 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:33] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 19:49:34,448 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:34] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 19:49:34,459 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:34] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:34,460 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:34,468 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:34] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 19:49:35,389 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:35] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:49:35,401 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:35] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:35,401 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:35,419 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:35] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:49:36,290 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:36] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 19:49:36,302 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:36] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:36,303 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:36,316 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:36] "GET /payments HTTP/1.1" 200 -
+2026-07-22 19:49:37,106 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:37] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 19:49:37,119 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:37] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:37,120 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:37,133 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:37] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 19:49:38,006 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:38] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 19:49:38,018 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:38] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:38,019 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:38,027 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:38] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:49:38,034 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:38] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:49:38,040 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:38] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 19:49:39,276 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:39] "GET / HTTP/1.1" 200 -
+2026-07-22 19:49:39,289 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:39] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:39,289 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:39,307 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:39] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:49:40,223 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:40] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 19:49:40,236 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:40] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:40,237 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:40,248 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:40] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:49:55,126 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:55] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 19:49:55,139 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:55,140 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:55,150 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:55] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 19:49:57,228 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:57] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 19:49:57,240 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:57] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:49:57,241 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:49:57,260 - INFO - 127.0.0.1 - - [22/Jul/2026 19:49:57] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 19:50:01,943 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:01] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 19:50:01,956 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:50:01,956 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:01] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:50:01,968 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:01] "GET /members HTTP/1.1" 200 -
+2026-07-22 19:50:02,615 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:02] "GET / HTTP/1.1" 200 -
+2026-07-22 19:50:02,627 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:02] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:50:02,628 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:50:02,637 - INFO - 127.0.0.1 - - [22/Jul/2026 19:50:02] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 19:51:31,201 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:31] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:51:31,214 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:31] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:51:31,214 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:51:31,227 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:31] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:51:39,561 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:51:39,639 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 19:51:53,685 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:53] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:51:53,707 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:53] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-07-22 19:51:53,707 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2026-07-22 19:51:53,728 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 19:51:53,857 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:53] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:51:54,607 - INFO - 127.0.0.1 - - [22/Jul/2026 19:51:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-22 19:54:30,317 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:30] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:54:30,331 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:54:30,350 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:30] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:54:30,373 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 19:54:31,809 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:31] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 19:54:31,825 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 19:54:31,844 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:31] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 19:54:31,846 - INFO - 127.0.0.1 - - [22/Jul/2026 19:54:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 19:56:07,451 - INFO - 127.0.0.1 - - [22/Jul/2026 19:56:07] "[31m[1mGET /attendance/1 HTTP/1.1[0m" 405 -
+2026-07-22 20:00:40,903 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 20:00:40,903 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 20:00:46,881 - INFO - 127.0.0.1 - - [22/Jul/2026 20:00:46] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 20:00:46,923 - INFO - 127.0.0.1 - - [22/Jul/2026 20:00:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 20:00:46,963 - INFO - 127.0.0.1 - - [22/Jul/2026 20:00:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:00:46,972 - INFO - 127.0.0.1 - - [22/Jul/2026 20:00:46] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:00:54,085 - INFO - 127.0.0.1 - - [22/Jul/2026 20:00:54] "GET /attendance/2 HTTP/1.1" 200 -
+2026-07-22 20:00:54,095 - INFO - 127.0.0.1 - - [22/Jul/2026 20:00:54] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:01:02,468 - INFO - 127.0.0.1 - - [22/Jul/2026 20:01:02] "PUT /attendance/2 HTTP/1.1" 200 -
+2026-07-22 20:01:04,188 - INFO - 127.0.0.1 - - [22/Jul/2026 20:01:04] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:01:13,070 - INFO - 127.0.0.1 - - [22/Jul/2026 20:01:13] "GET /attendance/2 HTTP/1.1" 200 -
+2026-07-22 20:01:13,076 - INFO - 127.0.0.1 - - [22/Jul/2026 20:01:13] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:01:14,623 - INFO - 127.0.0.1 - - [22/Jul/2026 20:01:14] "PUT /attendance/2 HTTP/1.1" 200 -
+2026-07-22 20:01:21,835 - INFO - 127.0.0.1 - - [22/Jul/2026 20:01:21] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:01:50,020 - INFO - 127.0.0.1 - - [22/Jul/2026 20:01:50] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:02:21,164 - INFO - Attendance Recorded : 3
+2026-07-22 20:02:21,164 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:21] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-22 20:02:22,877 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:22] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:02:27,386 - INFO - Attendance Deleted : 3
+2026-07-22 20:02:27,386 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:27] "DELETE /attendance/3 HTTP/1.1" 200 -
+2026-07-22 20:02:29,575 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:29] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:02:31,553 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:31] "GET /attendance/2 HTTP/1.1" 200 -
+2026-07-22 20:02:31,560 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:31] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:02:44,197 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:44] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 20:02:44,207 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:02:44,218 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:44] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:02:45,215 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:45] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 20:02:45,224 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:02:45,239 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:45] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:02:58,726 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:02:58,763 - INFO - 127.0.0.1 - - [22/Jul/2026 20:02:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 20:03:30,414 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:30] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:03:30,427 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:03:30,442 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:30] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:03:41,339 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:41] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 20:03:41,351 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:03:41,361 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:41] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:03:52,819 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:52] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:03:52,830 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:03:52,841 - INFO - 127.0.0.1 - - [22/Jul/2026 20:03:52] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:04:01,290 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:01] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:04:01,301 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:01,318 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:01] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:04:02,423 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:02] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 20:04:02,434 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:02,447 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:02] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:04:07,463 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:07] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:04:07,476 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:07,489 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:07] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:04:18,167 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:18] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 20:04:18,176 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:18,190 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:18] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:04:27,817 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:27] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 20:04:27,828 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:27,848 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:27] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:04:32,452 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:32] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 20:04:32,463 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:32,478 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:32] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:04:38,315 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:38] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 20:04:38,323 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:38,334 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:38] "GET /payments HTTP/1.1" 200 -
+2026-07-22 20:04:45,320 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:45] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 20:04:45,330 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:45,347 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:45] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 20:04:47,306 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:47] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 20:04:48,104 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:48] "[31m[1mGET /workouts/2 HTTP/1.1[0m" 405 -
+2026-07-22 20:04:50,276 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:50] "GET / HTTP/1.1" 200 -
+2026-07-22 20:04:50,284 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:50,313 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:50] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 20:04:51,407 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:51] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:04:51,419 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:04:51,428 - INFO - 127.0.0.1 - - [22/Jul/2026 20:04:51] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:08:02,769 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:02] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:08:02,782 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:08:02,796 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:02] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:08:20,559 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:20] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 20:08:20,569 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:08:20,589 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:20] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:08:21,499 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:21] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 20:08:21,511 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:08:21,522 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:21] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:08:22,544 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:22] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 20:08:22,554 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:08:22,569 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:22] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:08:23,654 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:23] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 20:08:23,665 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:08:23,677 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:23] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:08:24,938 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:24] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 20:08:24,949 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:08:24,960 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:24] "GET /payments HTTP/1.1" 200 -
+2026-07-22 20:08:25,964 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:25] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 20:08:25,974 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:08:25,989 - INFO - 127.0.0.1 - - [22/Jul/2026 20:08:25] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 20:29:41,076 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 20:29:41,076 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 20:29:47,171 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:47] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 20:29:47,264 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:29:47,271 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:47] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 20:29:50,470 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:50] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 20:29:50,481 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:29:50,512 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:50] "[35m[1mGET /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:29:55,889 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:55] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:29:55,890 - INFO - 127.0.0.1 - - [22/Jul/2026 20:29:55] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:30:24,769 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:24] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:26,548 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:26] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:26,792 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:26] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:27,023 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:27] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:27,260 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:27] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:27,497 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:27] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:27,743 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:27] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:27,961 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:27] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:28,153 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:28] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:28,361 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:28] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:28,579 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:28] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:28,814 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:28] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:29,021 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:29] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:29,239 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:29] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:29,432 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:29] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:29,657 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:29] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:29,857 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:29] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:30,059 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:30] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:30,224 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:30] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:30,584 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:30] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:31,445 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:31] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:30:31,787 - INFO - 127.0.0.1 - - [22/Jul/2026 20:30:31] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:31:23,118 - INFO - 127.0.0.1 - - [22/Jul/2026 20:31:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:31:23,182 - INFO - 127.0.0.1 - - [22/Jul/2026 20:31:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 20:32:58,415 - INFO - 127.0.0.1 - - [22/Jul/2026 20:32:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 20:33:00,765 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:00] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:33:04,364 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:04] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:33:05,414 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:05] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:33:49,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 20:33:49,207 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 20:33:54,445 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:54] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:33:58,150 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:58] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:33:58,326 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:58] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:33:58,481 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:58] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:33:58,698 - INFO - 127.0.0.1 - - [22/Jul/2026 20:33:58] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:35:23,077 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 20:35:23,077 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 20:35:55,082 - INFO - 127.0.0.1 - - [22/Jul/2026 20:35:55] "[35m[1mPOST /workouts HTTP/1.1[0m" 500 -
+2026-07-22 20:35:58,394 - INFO - 127.0.0.1 - - [22/Jul/2026 20:35:58] "GET / HTTP/1.1" 200 -
+2026-07-22 20:35:58,464 - INFO - 127.0.0.1 - - [22/Jul/2026 20:35:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:35:58,475 - INFO - 127.0.0.1 - - [22/Jul/2026 20:35:58] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 20:36:00,361 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:00] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 20:36:00,369 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:36:00,393 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:00] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 20:36:00,400 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:00] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 20:36:00,405 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:00] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 20:36:02,033 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:02] "GET / HTTP/1.1" 200 -
+2026-07-22 20:36:02,045 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:36:02,057 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:02] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 20:36:03,449 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:03] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:36:03,460 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:36:03,474 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:03] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:36:05,427 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:05] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:36:05,431 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:05] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:36:56,154 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:56] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 20:36:56,162 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:36:56,193 - INFO - 127.0.0.1 - - [22/Jul/2026 20:36:56] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:37:59,995 - ERROR - database is locked
+2026-07-22 20:37:59,996 - INFO - 127.0.0.1 - - [22/Jul/2026 20:37:59] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:00,012 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:00] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 20:38:01,295 - ERROR - database is locked
+2026-07-22 20:38:01,295 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:01] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:01,829 - ERROR - database is locked
+2026-07-22 20:38:01,829 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:01] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:02,095 - ERROR - database is locked
+2026-07-22 20:38:02,096 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:02] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:02,379 - ERROR - database is locked
+2026-07-22 20:38:02,379 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:02] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:02,596 - ERROR - database is locked
+2026-07-22 20:38:02,596 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:02] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:32,340 - ERROR - database is locked
+2026-07-22 20:38:32,340 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:32] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:32,344 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:38:32,353 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:32] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 20:38:33,558 - ERROR - database is locked
+2026-07-22 20:38:33,559 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:33] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:33,563 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:38:34,077 - ERROR - database is locked
+2026-07-22 20:38:34,077 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:34] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:34,242 - ERROR - database is locked
+2026-07-22 20:38:34,242 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:34] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:34,625 - ERROR - database is locked
+2026-07-22 20:38:34,625 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:34] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:38:34,777 - ERROR - database is locked
+2026-07-22 20:38:34,778 - INFO - 127.0.0.1 - - [22/Jul/2026 20:38:34] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:39:03,226 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:03] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:39:03,227 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:03] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 20:39:05,425 - ERROR - database is locked
+2026-07-22 20:39:05,426 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:05] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:39:06,774 - ERROR - database is locked
+2026-07-22 20:39:06,775 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:06] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:39:07,336 - ERROR - database is locked
+2026-07-22 20:39:07,337 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:07] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:39:07,436 - ERROR - database is locked
+2026-07-22 20:39:07,437 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:07] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:39:07,876 - ERROR - database is locked
+2026-07-22 20:39:07,876 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:07] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:39:07,988 - ERROR - database is locked
+2026-07-22 20:39:07,989 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:07] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:39:36,515 - ERROR - database is locked
+2026-07-22 20:39:36,515 - INFO - 127.0.0.1 - - [22/Jul/2026 20:39:36] "[35m[1mPOST /memberships HTTP/1.1[0m" 500 -
+2026-07-22 20:40:10,395 - ERROR - database is locked
+2026-07-22 20:40:10,395 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:10] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:10,401 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:40:11,694 - ERROR - database is locked
+2026-07-22 20:40:11,695 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:11] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:11,791 - ERROR - database is locked
+2026-07-22 20:40:11,792 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:11] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:12,012 - ERROR - database is locked
+2026-07-22 20:40:12,012 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:12] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:12,242 - ERROR - database is locked
+2026-07-22 20:40:12,242 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:12] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:12,561 - ERROR - database is locked
+2026-07-22 20:40:12,561 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:12] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:42,879 - ERROR - database is locked
+2026-07-22 20:40:42,879 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:42] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:44,125 - ERROR - database is locked
+2026-07-22 20:40:44,125 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:44] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:44,243 - ERROR - database is locked
+2026-07-22 20:40:44,243 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:44] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:44,444 - ERROR - database is locked
+2026-07-22 20:40:44,445 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:44] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:44,642 - ERROR - database is locked
+2026-07-22 20:40:44,643 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:44] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:40:44,959 - ERROR - database is locked
+2026-07-22 20:40:44,960 - INFO - 127.0.0.1 - - [22/Jul/2026 20:40:44] "[35m[1mPOST /trainers HTTP/1.1[0m" 500 -
+2026-07-22 20:41:53,384 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 20:41:53,384 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 20:42:29,721 - INFO - Trainer Added : 1
+2026-07-22 20:42:29,722 - INFO - 127.0.0.1 - - [22/Jul/2026 20:42:29] "[35m[1mPOST /trainers HTTP/1.1[0m" 201 -
+2026-07-22 20:42:32,192 - INFO - 127.0.0.1 - - [22/Jul/2026 20:42:32] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:42:44,904 - INFO - 127.0.0.1 - - [22/Jul/2026 20:42:44] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 20:42:44,967 - INFO - 127.0.0.1 - - [22/Jul/2026 20:42:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:42:44,973 - INFO - 127.0.0.1 - - [22/Jul/2026 20:42:44] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:43:11,901 - INFO - Membership Added : 1
+2026-07-22 20:43:11,901 - INFO - 127.0.0.1 - - [22/Jul/2026 20:43:11] "[35m[1mPOST /memberships HTTP/1.1[0m" 201 -
+2026-07-22 20:43:13,692 - INFO - 127.0.0.1 - - [22/Jul/2026 20:43:13] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:43:48,315 - INFO - Membership Added : 2
+2026-07-22 20:43:48,315 - INFO - 127.0.0.1 - - [22/Jul/2026 20:43:48] "[35m[1mPOST /memberships HTTP/1.1[0m" 201 -
+2026-07-22 20:43:49,923 - INFO - 127.0.0.1 - - [22/Jul/2026 20:43:49] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:44:31,280 - INFO - Membership Added : 3
+2026-07-22 20:44:31,280 - INFO - 127.0.0.1 - - [22/Jul/2026 20:44:31] "[35m[1mPOST /memberships HTTP/1.1[0m" 201 -
+2026-07-22 20:44:32,705 - INFO - 127.0.0.1 - - [22/Jul/2026 20:44:32] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:44:40,787 - INFO - 127.0.0.1 - - [22/Jul/2026 20:44:40] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:44:40,799 - INFO - 127.0.0.1 - - [22/Jul/2026 20:44:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:44:40,808 - INFO - 127.0.0.1 - - [22/Jul/2026 20:44:40] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:44:43,024 - INFO - 127.0.0.1 - - [22/Jul/2026 20:44:43] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 20:44:43,025 - INFO - 127.0.0.1 - - [22/Jul/2026 20:44:43] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:45:08,457 - INFO - Member Added Successfully : 1
+2026-07-22 20:45:08,457 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:08] "[35m[1mPOST /members HTTP/1.1[0m" 201 -
+2026-07-22 20:45:10,668 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:10] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:45:13,215 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:13] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 20:45:13,224 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:45:13,234 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:13] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:45:15,850 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:15] "GET /memberships/3 HTTP/1.1" 200 -
+2026-07-22 20:45:22,584 - INFO - Membership Updated : 3
+2026-07-22 20:45:22,585 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:22] "PUT /memberships/3 HTTP/1.1" 200 -
+2026-07-22 20:45:24,228 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:24] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 20:45:27,474 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:27] "GET / HTTP/1.1" 200 -
+2026-07-22 20:45:27,482 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:45:27,492 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:27] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 20:45:30,661 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:30] "GET / HTTP/1.1" 200 -
+2026-07-22 20:45:30,671 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:45:30,680 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:30] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 20:45:32,044 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:32] "GET / HTTP/1.1" 200 -
+2026-07-22 20:45:32,051 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:45:32,060 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:32] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 20:45:33,224 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:33] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 20:45:33,233 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:45:33,243 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:33] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:45:36,429 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:36] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 20:45:36,437 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:45:36,450 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:36] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 20:45:36,455 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:36] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 20:45:36,459 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:36] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 20:45:39,605 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:39] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 20:45:39,614 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:45:39,626 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:39] "GET /payments HTTP/1.1" 200 -
+2026-07-22 20:45:41,646 - INFO - 127.0.0.1 - - [22/Jul/2026 20:45:41] "GET /members HTTP/1.1" 200 -
+2026-07-22 20:52:40,605 - INFO - 127.0.0.1 - - [22/Jul/2026 20:52:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 20:52:40,637 - INFO - 127.0.0.1 - - [22/Jul/2026 20:52:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 20:54:06,839 - INFO - 127.0.0.1 - - [22/Jul/2026 20:54:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 20:55:05,939 - INFO - 127.0.0.1 - - [22/Jul/2026 20:55:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 21:00:11,133 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:11] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:00:11,141 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:00:11,149 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:11] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:00:12,802 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:12] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:00:12,802 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:12] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:00:38,833 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:38] "POST /workouts HTTP/1.1" 200 -
+2026-07-22 21:00:40,681 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:40] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:00:42,644 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:42] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:00:42,655 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:00:42,668 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:42] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:00:44,854 - INFO - 127.0.0.1 - - [22/Jul/2026 21:00:44] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:01:11,903 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:11] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:01:11,912 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:11,917 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:11] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:01:13,099 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:13] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:01:13,107 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:13,117 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:13] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:01:14,151 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:14] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:01:14,157 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:14,168 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:14] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:01:16,252 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:16] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:01:34,670 - INFO - Attendance Recorded : 1
+2026-07-22 21:01:34,670 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:34] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-22 21:01:36,985 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:36] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:01:39,235 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:39] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:01:39,244 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:39,261 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:39] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:01:40,497 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:40] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 21:01:40,505 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:40,518 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:40] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:01:41,589 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:41] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:01:41,598 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:41,609 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:41] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:01:42,647 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:42] "GET / HTTP/1.1" 200 -
+2026-07-22 21:01:42,654 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:42,669 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:42] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:01:44,749 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:44] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:01:44,759 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:01:44,767 - INFO - 127.0.0.1 - - [22/Jul/2026 21:01:44] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:02:28,499 - INFO - 127.0.0.1 - - [22/Jul/2026 21:02:28] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:02:28,508 - INFO - 127.0.0.1 - - [22/Jul/2026 21:02:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:02:28,516 - INFO - 127.0.0.1 - - [22/Jul/2026 21:02:28] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:05:57,906 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 21:05:57,906 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 21:06:05,649 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:05] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:06:05,718 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:05,724 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:05] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:06:08,068 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:08] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:06:08,076 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:08,083 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:08] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:06:10,498 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:10] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:06:27,850 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:27] "POST /payments HTTP/1.1" 200 -
+2026-07-22 21:06:29,475 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:29] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:06:31,513 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:31] "GET / HTTP/1.1" 200 -
+2026-07-22 21:06:31,522 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:31,532 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:31] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:06:33,449 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:33] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:06:33,459 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:33,471 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:33] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:06:34,582 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:34] "GET /analytics-page HTTP/1.1" 200 -
+2026-07-22 21:06:34,590 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:34,602 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:34] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 21:06:34,607 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:34] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 21:06:34,611 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:34] "GET /analytics/summary HTTP/1.1" 200 -
+2026-07-22 21:06:37,943 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:37] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:06:37,953 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:37,962 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:37] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:06:40,318 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:40] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:06:40,328 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:40,338 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:40] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:06:42,344 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:42] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:06:42,352 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:42,360 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:42] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:06:48,387 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:48] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:06:48,396 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:48,410 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:48] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:06:50,328 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:50] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:06:50,336 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:50,348 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:50] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:06:51,965 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:51] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:06:51,975 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:51,984 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:51] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:06:53,749 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:53] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:06:53,758 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:53,767 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:53] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:06:55,931 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:55] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:06:55,939 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:06:55,957 - INFO - 127.0.0.1 - - [22/Jul/2026 21:06:55] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:07:49,673 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:49] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:07:49,684 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:07:49,693 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:49] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:07:52,260 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:52] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 21:07:52,267 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:07:52,283 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:52] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:07:54,195 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:54] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:07:54,204 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:07:54,213 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:54] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:07:56,394 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:56] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:07:56,402 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:07:56,417 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:56] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:07:59,107 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:59] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:07:59,116 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:07:59,123 - INFO - 127.0.0.1 - - [22/Jul/2026 21:07:59] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:08:02,113 - INFO - 127.0.0.1 - - [22/Jul/2026 21:08:02] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:08:02,122 - INFO - 127.0.0.1 - - [22/Jul/2026 21:08:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:08:02,133 - INFO - 127.0.0.1 - - [22/Jul/2026 21:08:02] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:08:34,071 - INFO - 127.0.0.1 - - [22/Jul/2026 21:08:34] "GET / HTTP/1.1" 200 -
+2026-07-22 21:08:34,080 - INFO - 127.0.0.1 - - [22/Jul/2026 21:08:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:08:34,087 - INFO - 127.0.0.1 - - [22/Jul/2026 21:08:34] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:12:20,413 - INFO - 127.0.0.1 - - [22/Jul/2026 21:12:20] "GET / HTTP/1.1" 200 -
+2026-07-22 21:12:20,422 - INFO - 127.0.0.1 - - [22/Jul/2026 21:12:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:12:20,435 - INFO - 127.0.0.1 - - [22/Jul/2026 21:12:20] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:14:12,588 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:12] "GET / HTTP/1.1" 200 -
+2026-07-22 21:14:12,598 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:14:12,617 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:12] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:14:17,317 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:17] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:14:17,325 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:14:17,344 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:17] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:14:20,059 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:20] "GET /attendance/1 HTTP/1.1" 200 -
+2026-07-22 21:14:20,065 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:20] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:14:25,062 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:25] "PUT /attendance/1 HTTP/1.1" 200 -
+2026-07-22 21:14:26,924 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:26] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:14:32,890 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:32] "GET / HTTP/1.1" 200 -
+2026-07-22 21:14:32,900 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:14:32,911 - INFO - 127.0.0.1 - - [22/Jul/2026 21:14:32] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:15:00,294 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:00] "GET /workouts/1 HTTP/1.1" 200 -
+2026-07-22 21:15:00,303 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:00] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:15:00,304 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:00] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:15:08,739 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:08] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:15:08,751 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:08,765 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:08] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:15:13,506 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:13] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:15:13,516 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:13,529 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:13] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:15:15,451 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:15] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:15:15,461 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:15,473 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:15] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:15:17,676 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:17] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:15:17,685 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:17,700 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:17] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:15:19,406 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:19] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 21:15:19,415 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:19,459 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:19] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:15:21,025 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:21] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:15:21,035 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:21,053 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:21] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:15:23,643 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:23] "GET / HTTP/1.1" 200 -
+2026-07-22 21:15:23,653 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:23,661 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:23] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:15:24,930 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:24] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:15:24,940 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:24,948 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:24] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:15:25,869 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:25] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 21:15:25,879 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:25,888 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:25] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:15:27,196 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:27] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:15:27,205 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:27,215 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:27] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:15:28,323 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:28] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:15:28,332 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:28,340 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:28] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:15:29,460 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:29] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:15:29,469 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:29,480 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:29] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:15:30,878 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:30] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:15:30,887 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:15:30,904 - INFO - 127.0.0.1 - - [22/Jul/2026 21:15:30] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:16:43,155 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:43] "GET / HTTP/1.1" 200 -
+2026-07-22 21:16:43,164 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:16:43,175 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:43] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:16:46,124 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:46] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:16:46,134 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:16:46,144 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:46] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:16:50,072 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:50] "GET /workouts/1 HTTP/1.1" 200 -
+2026-07-22 21:16:50,078 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:50] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:16:50,079 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:50] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:16:52,812 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:52] "PUT /workouts/1 HTTP/1.1" 200 -
+2026-07-22 21:16:54,313 - INFO - 127.0.0.1 - - [22/Jul/2026 21:16:54] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:22:51,757 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:51] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:22:51,782 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:22:51,798 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:51] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:22:54,701 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:54] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:22:54,722 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:22:54,738 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:54] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:22:56,855 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:56] "GET /attendance/1 HTTP/1.1" 200 -
+2026-07-22 21:22:56,869 - INFO - 127.0.0.1 - - [22/Jul/2026 21:22:56] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:26:40,478 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 21:26:40,478 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 21:26:48,701 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:48] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:26:48,842 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:26:48,858 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:48] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:26:52,861 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:52] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:26:52,872 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:26:52,898 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:52] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:26:56,076 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:56] "GET /attendance/1 HTTP/1.1" 200 -
+2026-07-22 21:26:56,092 - INFO - 127.0.0.1 - - [22/Jul/2026 21:26:56] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:27:03,766 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:03] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:27:14,387 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:14] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:27:14,407 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:14,425 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:14] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:27:19,185 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:19] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:27:19,205 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:19,222 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:19] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:27:21,203 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:21] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:27:21,220 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:21,234 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:21] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:27:23,634 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:23] "GET /workouts/1 HTTP/1.1" 200 -
+2026-07-22 21:27:23,646 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:23] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:27:23,655 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:23] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:27:31,649 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:31] "PUT /workouts/1 HTTP/1.1" 200 -
+2026-07-22 21:27:33,302 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:33] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:27:35,554 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:35] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:27:35,571 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:35,591 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:35] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:27:36,425 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:36] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:27:36,439 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:36,453 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:36] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:27:43,418 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:43] "GET / HTTP/1.1" 200 -
+2026-07-22 21:27:43,438 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:43,452 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:43] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:27:45,577 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:45] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:27:45,593 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:45,603 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:45] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:27:46,355 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:46] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:27:46,373 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:27:46,385 - INFO - 127.0.0.1 - - [22/Jul/2026 21:27:46] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:31:16,307 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:16] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:31:16,322 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:31:16,335 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:16] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:31:22,328 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:22] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:31:22,342 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:31:22,355 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:22] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:31:23,230 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:23] "GET / HTTP/1.1" 200 -
+2026-07-22 21:31:23,250 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:31:23,269 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:23] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:31:25,677 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:25] "GET /workouts-page HTTP/1.1" 200 -
+2026-07-22 21:31:25,691 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:31:25,711 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:25] "GET /workouts HTTP/1.1" 200 -
+2026-07-22 21:31:30,279 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:30] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:31:30,301 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:31:30,316 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:30] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:31:37,611 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:37] "GET / HTTP/1.1" 200 -
+2026-07-22 21:31:37,629 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:31:37,651 - INFO - 127.0.0.1 - - [22/Jul/2026 21:31:37] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:39:13,440 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 21:39:13,440 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 21:39:20,341 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:20] "GET / HTTP/1.1" 200 -
+2026-07-22 21:39:20,475 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:20,498 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:20] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:39:22,657 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:22] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:39:22,673 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:22,715 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:22] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:39:26,635 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:26] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:39:26,651 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:26,665 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:26] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:39:27,877 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:27] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:39:27,890 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:27,910 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:27] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:39:29,579 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:29] "GET /payments-page HTTP/1.1" 200 -
+2026-07-22 21:39:29,594 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:29,608 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:29] "GET /payments HTTP/1.1" 200 -
+2026-07-22 21:39:31,485 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:31] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:39:31,500 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:31,519 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:31] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:39:32,825 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:32] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 21:39:32,838 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:32,849 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:32] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:39:34,083 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:34] "GET /trainers-page HTTP/1.1" 200 -
+2026-07-22 21:39:34,107 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:34,121 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:34] "GET /trainers HTTP/1.1" 200 -
+2026-07-22 21:39:35,052 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:35] "GET /members-page HTTP/1.1" 200 -
+2026-07-22 21:39:35,070 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:35,084 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:35] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:39:36,840 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:36] "GET / HTTP/1.1" 200 -
+2026-07-22 21:39:36,852 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:36,867 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:36] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:39:39,401 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:39] "GET /memberships-page HTTP/1.1" 200 -
+2026-07-22 21:39:39,419 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:39,433 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:39] "GET /memberships HTTP/1.1" 200 -
+2026-07-22 21:39:40,570 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:40] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:39:40,590 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:39:40,604 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:40] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:39:42,866 - INFO - 127.0.0.1 - - [22/Jul/2026 21:39:42] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:40:00,164 - INFO - Attendance Recorded : 2
+2026-07-22 21:40:00,165 - INFO - 127.0.0.1 - - [22/Jul/2026 21:40:00] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-22 21:40:02,051 - INFO - 127.0.0.1 - - [22/Jul/2026 21:40:02] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:40:42,393 - INFO - 127.0.0.1 - - [22/Jul/2026 21:40:42] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:40:42,396 - INFO - 127.0.0.1 - - [22/Jul/2026 21:40:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:40:42,432 - INFO - 127.0.0.1 - - [22/Jul/2026 21:40:42] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 21:47:04,160 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 21:47:04,165 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 21:47:11,067 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:11] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:47:11,205 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:47:11,215 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:11] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:47:14,710 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:14] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:47:21,543 - INFO - Attendance Deleted : 1
+2026-07-22 21:47:21,543 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:21] "DELETE /attendance/1 HTTP/1.1" 200 -
+2026-07-22 21:47:23,370 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:23] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:47:26,690 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:26] "[35m[1mPUT /attendance/complete/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:28,729 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:28] "[35m[1mPUT /attendance/complete/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:31,623 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:31] "GET / HTTP/1.1" 200 -
+2026-07-22 21:47:31,644 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:47:31,656 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:31] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:47:35,487 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:35] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:47:35,510 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:47:35,525 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:35] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:47:37,514 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:37] "GET /attendance/2 HTTP/1.1" 200 -
+2026-07-22 21:47:37,525 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:37] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:47:40,241 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:40] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:41,420 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:41] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:42,444 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:42] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:42,633 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:42] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:42,805 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:42] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:42,957 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:42] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:46,823 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:46] "GET /attendance/2 HTTP/1.1" 200 -
+2026-07-22 21:47:46,834 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:46] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:47:50,934 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:50] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:54,406 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:54] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:54,598 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:54] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:54,763 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:54] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:54,909 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:54] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:55,045 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:55] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:55,265 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:55] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:47:59,789 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:47:59,816 - INFO - 127.0.0.1 - - [22/Jul/2026 21:47:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-07-22 21:53:15,688 - INFO - 127.0.0.1 - - [22/Jul/2026 21:53:15] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:53:17,852 - INFO - 127.0.0.1 - - [22/Jul/2026 21:53:17] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:53:57,453 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-07-22 21:53:57,453 - INFO - [33mPress CTRL+C to quit[0m
+2026-07-22 21:54:05,022 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:05] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:54:05,046 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:54:05,060 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:05] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:54:08,764 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:08] "[35m[1mPUT /attendance/complete/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:10,971 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:10] "GET /attendance/2 HTTP/1.1" 200 -
+2026-07-22 21:54:10,981 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:10] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:54:12,553 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:12] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:13,446 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:13] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:15,767 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:15] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:54:35,806 - INFO - Attendance Recorded : 3
+2026-07-22 21:54:35,807 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:35] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-22 21:54:37,902 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:37] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:54:42,212 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:42] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:42,389 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:42] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:42,568 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:42] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:42,730 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:42] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:42,879 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:42] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:43,050 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:43] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:43,214 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:43] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:43,376 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:43] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:43,695 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:43] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:43,866 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:43] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:44,053 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:44] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:44,224 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:44] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:44,445 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:44] "[35m[1mPUT /attendance/complete/3 HTTP/1.1[0m" 500 -
+2026-07-22 21:54:47,466 - INFO - Attendance Deleted : 3
+2026-07-22 21:54:47,467 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:47] "DELETE /attendance/3 HTTP/1.1" 200 -
+2026-07-22 21:54:49,822 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:49] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:54:52,297 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:52] "GET / HTTP/1.1" 200 -
+2026-07-22 21:54:52,310 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:54:52,323 - INFO - 127.0.0.1 - - [22/Jul/2026 21:54:52] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 21:55:02,069 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:02] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 21:55:02,083 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:55:02,099 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:02] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 21:55:04,475 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:04] "GET /attendance/2 HTTP/1.1" 200 -
+2026-07-22 21:55:04,485 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:04] "GET /members HTTP/1.1" 200 -
+2026-07-22 21:55:08,323 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:08] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:55:10,278 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:10] "[35m[1mPUT /attendance/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:55:12,507 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:12] "[35m[1mPUT /attendance/complete/2 HTTP/1.1[0m" 500 -
+2026-07-22 21:55:15,405 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:15] "GET / HTTP/1.1" 200 -
+2026-07-22 21:55:15,419 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 21:55:15,431 - INFO - 127.0.0.1 - - [22/Jul/2026 21:55:15] "GET /dashboard HTTP/1.1" 200 -
+2026-07-22 22:01:13,407 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:13] "GET /attendance-page HTTP/1.1" 200 -
+2026-07-22 22:01:13,428 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 22:01:13,447 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:13] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 22:01:19,440 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:19] "GET /members HTTP/1.1" 200 -
+2026-07-22 22:01:25,321 - INFO - Attendance Deleted : 2
+2026-07-22 22:01:25,322 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:25] "DELETE /attendance/2 HTTP/1.1" 200 -
+2026-07-22 22:01:26,931 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:26] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 22:01:28,369 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:28] "GET /members HTTP/1.1" 200 -
+2026-07-22 22:01:46,616 - INFO - Attendance Recorded : 4
+2026-07-22 22:01:46,616 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:46] "[35m[1mPOST /attendance HTTP/1.1[0m" 201 -
+2026-07-22 22:01:48,452 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:48] "GET /attendance HTTP/1.1" 200 -
+2026-07-22 22:01:52,574 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:52] "GET / HTTP/1.1" 200 -
+2026-07-22 22:01:52,593 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-07-22 22:01:52,614 - INFO - 127.0.0.1 - - [22/Jul/2026 22:01:52] "GET /dashboard HTTP/1.1" 200 -
