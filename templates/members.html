@@ -1,0 +1,779 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="fw-bold">
+            👥 Members Management
+        </h2>
+
+        <button
+            class="btn btn-primary"
+            onclick="openAddModal()">
+
+            <i class="bi bi-plus-circle"></i>
+
+            Add Member
+
+        </button>
+
+    </div>
+
+    <div class="card shadow">
+
+        <div class="card-body">
+
+            <input
+                type="text"
+                class="form-control mb-3"
+                id="searchBox"
+                placeholder="Search Members...">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-bordered align-middle">
+
+                    <thead class="table-dark">
+
+                    <tr>
+
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>BMI</th>
+                        <th>Trainer</th>
+                        <th>Membership</th>
+                        <th>Status</th>
+                        <th width="140">Actions</th>
+
+                    </tr>
+
+                    </thead>
+
+                    <tbody id="memberTable">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+loadMembers();
+
+function loadMembers(){
+
+    fetch("/members")
+
+    .then(response=>response.json())
+
+    .then(data=>{
+
+        let rows="";
+
+        data.forEach(member=>{
+
+            rows+=`
+
+            <tr>
+
+                <td>${member.member_id}</td>
+
+                <td>${member.full_name}</td>
+
+                <td>${member.age}</td>
+
+                <td>${member.gender}</td>
+
+                <td>${member.phone}</td>
+
+                <td>${member.email}</td>
+
+                <td>${member.bmi}</td>
+
+                <td>${member.trainer_name ?? ""}</td>
+
+                <td>${member.plan_name ?? ""}</td>
+
+                <td>
+
+                    <span class="badge bg-success">
+
+                        ${member.membership_status}
+
+                    </span>
+
+                </td>
+
+                <td>
+
+                    <button
+                        class="btn btn-warning btn-sm"
+                        onclick="editMember(${member.member_id})">
+
+                        <i class="bi bi-pencil-square"></i>
+
+                    </button>
+
+                    <button
+                        class="btn btn-danger btn-sm"
+                        onclick="deleteMember(${member.member_id})">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+            `;
+
+        });
+
+        document.getElementById("memberTable").innerHTML=rows;
+
+    });
+
+}
+
+document.getElementById("searchBox")
+
+.addEventListener("keyup",function(){
+
+    let filter=this.value.toLowerCase();
+
+    let rows=document.querySelectorAll("#memberTable tr");
+
+    rows.forEach(row=>{
+
+        row.style.display=row.innerText
+            .toLowerCase()
+            .includes(filter)
+
+            ? ""
+
+            : "none";
+
+    });
+
+});
+// ----------------------------
+// Open Add Member Modal
+// ----------------------------
+function openAddModal(){
+
+    document.getElementById("modalTitle").innerHTML="Add Member";
+
+    document.getElementById("memberId").value="";
+
+    document.getElementById("full_name").value="";
+    document.getElementById("age").value="";
+    document.getElementById("gender").value="Male";
+    document.getElementById("phone").value="";
+    document.getElementById("email").value="";
+    document.getElementById("height").value="";
+    document.getElementById("weight").value="";
+    document.getElementById("trainer_id").value="";
+    document.getElementById("membership_id").value="";
+
+    loadTrainers();
+
+    loadMemberships();
+
+    let modal=new bootstrap.Modal(
+        document.getElementById("memberModal")
+    );
+
+    modal.show();
+
+}
+
+
+// ----------------------------
+// Load Trainers
+// ----------------------------
+function loadTrainers(){
+
+    fetch("/trainers")
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        let trainer=document.getElementById("trainer_id");
+
+        trainer.innerHTML=
+        "<option value=''>Select Trainer</option>";
+
+        data.forEach(t=>{
+
+            trainer.innerHTML+=`
+
+                <option value="${t.trainer_id}">
+                    ${t.full_name}
+                </option>
+
+            `;
+
+        });
+
+    });
+
+}
+
+
+// ----------------------------
+// Load Memberships
+// ----------------------------
+function loadMemberships(){
+
+    fetch("/memberships")
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        let membership=document.getElementById("membership_id");
+
+        membership.innerHTML=
+        "<option value=''>Select Membership</option>";
+
+        data.forEach(m=>{
+
+            membership.innerHTML+=`
+
+                <option value="${m.membership_id}">
+                    ${m.plan_name}
+                </option>
+
+            `;
+
+        });
+
+    });
+
+}
+
+
+// ----------------------------
+// Save Member
+// ----------------------------
+function saveMember(){
+
+    const data={
+
+        full_name:document.getElementById("full_name").value,
+
+        age:parseInt(document.getElementById("age").value),
+
+        gender:document.getElementById("gender").value,
+
+        phone:document.getElementById("phone").value,
+
+        email:document.getElementById("email").value,
+
+        height:parseFloat(document.getElementById("height").value),
+
+        weight:parseFloat(document.getElementById("weight").value),
+
+        trainer_id:parseInt(document.getElementById("trainer_id").value),
+
+        membership_id:parseInt(document.getElementById("membership_id").value)
+
+    };
+
+    if(
+    !data.full_name ||
+    isNaN(data.age) ||
+    !data.phone ||
+    !data.email ||
+    isNaN(data.height) ||
+    isNaN(data.weight) ||
+    isNaN(data.trainer_id) ||
+    isNaN(data.membership_id)
+){
+    alert("Please fill all required fields.");
+    return;
+}
+
+    fetch("/members",{
+
+        method:"POST",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("memberModal"))
+            .hide();
+
+            loadMembers();
+
+        }
+
+    });
+
+}
+// ----------------------------
+// Edit Member
+// ----------------------------
+function editMember(memberId){
+
+    fetch(`/members/${memberId}`)
+
+    .then(res=>res.json())
+
+    .then(member=>{
+
+        document.getElementById("modalTitle").innerHTML="Edit Member";
+
+        document.getElementById("memberId").value=member.member_id;
+
+        document.getElementById("full_name").value=member.full_name;
+
+        document.getElementById("age").value=member.age;
+
+        document.getElementById("gender").value=member.gender;
+
+        document.getElementById("phone").value=member.phone;
+
+        document.getElementById("email").value=member.email;
+
+        document.getElementById("height").value=member.height;
+
+        document.getElementById("weight").value=member.weight;
+
+        loadTrainers();
+
+        loadMemberships();
+
+        setTimeout(function(){
+
+            document.getElementById("trainer_id").value=
+            member.trainer_id;
+
+            document.getElementById("membership_id").value=
+            member.membership_id;
+
+        },300);
+
+        let modal=new bootstrap.Modal(
+            document.getElementById("memberModal")
+        );
+
+        modal.show();
+
+    });
+
+}
+
+
+// ----------------------------
+// Update Member
+// ----------------------------
+function updateMember(){
+
+    let memberId=document.getElementById("memberId").value;
+
+    const data={
+
+        full_name:document.getElementById("full_name").value,
+
+        age:parseInt(document.getElementById("age").value),
+
+        gender:document.getElementById("gender").value,
+
+        phone:document.getElementById("phone").value,
+
+        email:document.getElementById("email").value,
+
+        height:parseFloat(document.getElementById("height").value),
+
+        weight:parseFloat(document.getElementById("weight").value),
+
+        trainer_id:parseInt(document.getElementById("trainer_id").value),
+
+        membership_id:parseInt(document.getElementById("membership_id").value)
+
+    };
+
+    if(
+    !data.full_name ||
+    isNaN(data.age) ||
+    !data.phone ||
+    !data.email ||
+    isNaN(data.height) ||
+    isNaN(data.weight) ||
+    isNaN(data.trainer_id) ||
+    isNaN(data.membership_id)
+){
+    alert("Please fill all required fields.");
+    return;
+}
+
+    fetch(`/members/${memberId}`,{
+
+        method:"PUT",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("memberModal"))
+            .hide();
+
+            loadMembers();
+
+        }
+
+    });
+
+}
+
+
+// ----------------------------
+// Delete Member
+// ----------------------------
+function deleteMember(memberId){
+
+    if(!confirm("Are you sure you want to delete this member?")){
+
+        return;
+
+    }
+
+    fetch(`/members/${memberId}`,{
+
+        method:"DELETE"
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        loadMembers();
+
+    });
+
+}
+
+
+// ----------------------------
+// Save Button Controller
+// ----------------------------
+function saveOrUpdate(){
+
+    let memberId=document.getElementById("memberId").value;
+
+    if(memberId==""){
+
+        saveMember();
+
+    }
+
+    else{
+
+        updateMember();
+
+    }
+
+}
+
+</script>
+
+<!-- ===========================
+     Member Modal
+=========================== -->
+
+<div class="modal fade" id="memberModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+
+                <h5
+                    class="modal-title"
+                    id="modalTitle">
+
+                    Add Member
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <input
+                    type="hidden"
+                    id="memberId">
+
+                <div class="row">
+
+                    <!-- Name -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Full Name
+
+                        </label>
+
+                        <input
+                            id="full_name"
+                            class="form-control"
+                            placeholder="Enter Full Name">
+
+                    </div>
+
+                    <!-- Age -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Age
+
+                        </label>
+
+                        <input
+                            id="age"
+                            type="number"
+                            class="form-control">
+
+                    </div>
+
+                    <!-- Gender -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Gender
+
+                        </label>
+
+                        <select
+                            id="gender"
+                            class="form-select">
+
+                            <option value="Male">
+
+                                Male
+
+                            </option>
+
+                            <option value="Female">
+
+                                Female
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Phone -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Phone
+
+                        </label>
+
+                        <input
+                            id="phone"
+                            class="form-control"
+                            maxlength="10"
+                            placeholder="9876543210">
+
+                    </div>
+
+                    <!-- Email -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Email
+
+                        </label>
+
+                        <input
+                            id="email"
+                            type="email"
+                            class="form-control"
+                            placeholder="abc@gmail.com">
+
+                    </div>
+
+                    <!-- Height -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Height (cm)
+
+                        </label>
+
+                        <input
+                            id="height"
+                            type="number"
+                            class="form-control"
+                            placeholder="170">
+
+                    </div>
+
+                    <!-- Weight -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Weight (kg)
+
+                        </label>
+
+                        <input
+                            id="weight"
+                            type="number"
+                            class="form-control"
+                            placeholder="65">
+
+                    </div>
+
+                    <!-- Trainer -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Trainer
+
+                        </label>
+
+                        <select
+                            id="trainer_id"
+                            class="form-select">
+
+                            <option value="">
+
+                                Select Trainer
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Membership -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Membership Plan
+
+                        </label>
+
+                        <select
+                            id="membership_id"
+                            class="form-select">
+
+                            <option value="">
+
+                                Select Membership
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    onclick="saveOrUpdate()">
+
+                    <i class="bi bi-check-circle"></i>
+
+                    Save
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

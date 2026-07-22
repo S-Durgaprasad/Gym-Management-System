@@ -1,0 +1,534 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="fw-bold">
+            💳 Membership Management
+        </h2>
+
+        <button
+            class="btn btn-primary"
+            onclick="openAddModal()">
+
+            <i class="bi bi-plus-circle"></i>
+
+            Add Membership
+
+        </button>
+
+    </div>
+
+    <div class="card shadow">
+
+        <div class="card-body">
+
+            <input
+                type="text"
+                id="searchBox"
+                class="form-control mb-3"
+                placeholder="Search Membership...">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-bordered align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>ID</th>
+                            <th>Plan Name</th>
+                            <th>Duration (Months)</th>
+                            <th>Price</th>
+                            <th>Description</th>
+                            <th width="140">Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="membershipTable">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+loadMemberships();
+
+function loadMemberships(){
+
+    fetch("/memberships")
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        let rows="";
+
+        data.forEach(plan=>{
+
+            rows+=`
+
+            <tr>
+
+                <td>${plan.membership_id}</td>
+
+                <td>${plan.plan_name}</td>
+
+                <td>${plan.duration_months}</td>
+
+                <td>₹ ${plan.price}</td>
+
+                <td>${plan.description}</td>
+
+                <td>
+
+                    <button
+                        class="btn btn-warning btn-sm"
+                        onclick="editMembership(${plan.membership_id})">
+
+                        <i class="bi bi-pencil-square"></i>
+
+                    </button>
+
+                    <button
+                        class="btn btn-danger btn-sm"
+                        onclick="deleteMembership(${plan.membership_id})">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+            `;
+
+        });
+
+        document.getElementById("membershipTable").innerHTML=rows;
+
+    });
+
+}
+
+document.getElementById("searchBox")
+
+.addEventListener("keyup",function(){
+
+    let filter=this.value.toLowerCase();
+
+    let rows=document.querySelectorAll("#membershipTable tr");
+
+    rows.forEach(row=>{
+
+        row.style.display=row.innerText
+            .toLowerCase()
+            .includes(filter)
+
+            ? ""
+
+            : "none";
+
+    });
+
+});
+// ----------------------------
+// Open Add Membership Modal
+// ----------------------------
+function openAddModal(){
+
+    document.getElementById("modalTitle").innerHTML = "Add Membership";
+
+    document.getElementById("membershipId").value = "";
+    document.getElementById("plan_name").value = "";
+    document.getElementById("duration_months").value = "";
+    document.getElementById("price").value = "";
+    document.getElementById("description").value = "";
+
+    let modal = new bootstrap.Modal(
+        document.getElementById("membershipModal")
+    );
+
+    modal.show();
+
+}
+
+
+// ----------------------------
+// Save Membership
+// ----------------------------
+function saveMembership(){
+
+    const data = {
+
+        plan_name: document.getElementById("plan_name").value,
+
+        duration_months: parseInt(
+            document.getElementById("duration_months").value
+        ),
+
+        price: parseFloat(
+            document.getElementById("price").value
+        ),
+
+        description: document.getElementById("description").value
+
+    };
+
+    // Validation
+
+    if(
+        !data.plan_name ||
+        isNaN(data.duration_months) ||
+        isNaN(data.price) ||
+        !data.description
+    ){
+
+        alert("Please fill all required fields.");
+
+        return;
+
+    }
+
+    fetch("/memberships",{
+
+        method:"POST",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("membershipModal"))
+            .hide();
+
+            loadMemberships();
+
+        }
+
+    });
+
+}
+// ----------------------------
+// Edit Membership
+// ----------------------------
+function editMembership(membershipId){
+
+    fetch(`/memberships/${membershipId}`)
+
+    .then(res => res.json())
+
+    .then(plan => {
+
+        document.getElementById("modalTitle").innerHTML = "Edit Membership";
+
+        document.getElementById("membershipId").value = plan.membership_id;
+
+        document.getElementById("plan_name").value = plan.plan_name;
+
+        document.getElementById("duration_months").value = plan.duration_months;
+
+        document.getElementById("price").value = plan.price;
+
+        document.getElementById("description").value = plan.description;
+
+        let modal = new bootstrap.Modal(
+            document.getElementById("membershipModal")
+        );
+
+        modal.show();
+
+    });
+
+}
+
+
+// ----------------------------
+// Update Membership
+// ----------------------------
+function updateMembership(){
+
+    let membershipId = document.getElementById("membershipId").value;
+
+    const data = {
+
+        plan_name: document.getElementById("plan_name").value,
+
+        duration_months: parseInt(
+            document.getElementById("duration_months").value
+        ),
+
+        price: parseFloat(
+            document.getElementById("price").value
+        ),
+
+        description: document.getElementById("description").value
+
+    };
+
+    if(
+        !data.plan_name ||
+        isNaN(data.duration_months) ||
+        isNaN(data.price) ||
+        !data.description
+    ){
+
+        alert("Please fill all required fields.");
+
+        return;
+
+    }
+
+    fetch(`/memberships/${membershipId}`, {
+
+        method: "PUT",
+
+        headers: {
+            "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify(data)
+
+    })
+
+    .then(res => res.json())
+
+    .then(result => {
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("membershipModal"))
+            .hide();
+
+            loadMemberships();
+
+        }
+
+    });
+
+}
+
+
+// ----------------------------
+// Delete Membership
+// ----------------------------
+function deleteMembership(membershipId){
+
+    if(!confirm("Are you sure you want to delete this membership?")){
+
+        return;
+
+    }
+
+    fetch(`/memberships/${membershipId}`,{
+
+        method:"DELETE"
+
+    })
+
+    .then(res => res.json())
+
+    .then(result => {
+
+        alert(result.message);
+
+        loadMemberships();
+
+    });
+
+}
+
+
+// ----------------------------
+// Save or Update
+// ----------------------------
+function saveOrUpdate(){
+
+    let membershipId = document.getElementById("membershipId").value;
+
+    if(membershipId == ""){
+
+        saveMembership();
+
+    }
+
+    else{
+
+        updateMembership();
+
+    }
+
+}
+
+</script>
+
+<!-- ===========================
+     Membership Modal
+=========================== -->
+
+<div class="modal fade" id="membershipModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+
+                <h5 class="modal-title" id="modalTitle">
+
+                    Add Membership
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <input
+                    type="hidden"
+                    id="membershipId">
+
+                <div class="row">
+
+                    <!-- Plan Name -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Plan Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="plan_name"
+                            class="form-control"
+                            placeholder="Gold Plan">
+
+                    </div>
+
+                    <!-- Duration -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Duration (Months)
+
+                        </label>
+
+                        <input
+                            type="number"
+                            id="duration_months"
+                            class="form-control"
+                            placeholder="12">
+
+                    </div>
+
+                    <!-- Price -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Price
+
+                        </label>
+
+                        <input
+                            type="number"
+                            id="price"
+                            class="form-control"
+                            placeholder="5000">
+
+                    </div>
+
+                    <!-- Description -->
+
+                    <div class="col-md-12 mb-3">
+
+                        <label class="form-label">
+
+                            Description
+
+                        </label>
+
+                        <textarea
+                            id="description"
+                            class="form-control"
+                            rows="4"
+                            placeholder="Enter membership plan description"></textarea>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    onclick="saveOrUpdate()">
+
+                    <i class="bi bi-check-circle"></i>
+
+                    Save
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

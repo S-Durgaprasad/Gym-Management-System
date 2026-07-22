@@ -1,0 +1,600 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="fw-bold">
+            📅 Attendance Management
+        </h2>
+
+        <button
+            class="btn btn-primary"
+            onclick="openAddModal()">
+
+            <i class="bi bi-plus-circle"></i>
+
+            Mark Attendance
+
+        </button>
+
+
+    </div>
+
+    <div class="card shadow">
+
+        <div class="card-body">
+
+            <input
+                type="text"
+                id="searchBox"
+                class="form-control mb-3"
+                placeholder="Search Attendance...">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-bordered align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>ID</th>
+                            <th>Member</th>
+                            <th>Date</th>
+                            <th>Check In</th>
+                            <th>Status</th>
+                            <th width="140">Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="attendanceTable">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+loadAttendance();
+
+function loadAttendance(){
+
+    fetch("/attendance")
+
+    .then(res => res.json())
+
+    .then(data => {
+
+        let rows = "";
+
+        data.forEach(record => {
+
+            rows += `
+
+            <tr>
+
+                <td>${record.attendance_id}</td>
+
+                <td>${record.full_name}</td>
+
+                <td>${record.attendance_date}</td>
+
+                <td>${record.check_in_time}</td>
+
+                <td>${record.status}</td>
+
+                <td>
+
+                    <button
+                        class="btn btn-warning btn-sm"
+                        onclick="editAttendance(${record.attendance_id})">
+
+                        <i class="bi bi-pencil-square"></i>
+
+                    </button>
+
+                    <button
+                        class="btn btn-success btn-sm"
+                        onclick="completeWorkout(${record.attendance_id})">
+                        <i class="bi bi-check-circle"></i>
+                    </button>
+
+                    <button
+                        class="btn btn-danger btn-sm"
+                        onclick="deleteAttendance(${record.attendance_id})">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+            `;
+
+        });
+
+        document.getElementById("attendanceTable").innerHTML = rows;
+
+    });
+
+}
+
+function completeWorkout(attendanceId) {
+
+    fetch(`/attendance/complete/${attendanceId}`, {
+        method: "PUT"
+    })
+    .then(res => res.json())
+    .then(result => {
+        alert(result.message);
+        loadAttendance();
+    });
+
+}
+
+document.getElementById("searchBox")
+
+.addEventListener("keyup", function(){
+
+    let filter = this.value.toLowerCase();
+
+    let rows = document.querySelectorAll("#attendanceTable tr");
+
+    rows.forEach(row => {
+
+        row.style.display = row.innerText
+            .toLowerCase()
+            .includes(filter)
+
+            ? ""
+
+            : "none";
+
+    });
+
+});
+
+// ----------------------------
+// Load Members Dropdown
+// ----------------------------
+function loadMembersDropdown(){
+
+    fetch("/members")
+
+    .then(res => res.json())
+
+    .then(data => {
+
+        let options = "";
+
+        data.forEach(member => {
+
+            options += `
+
+                <option value="${member.member_id}">
+
+                    ${member.full_name}
+
+                </option>
+
+            `;
+
+        });
+
+        document.getElementById("member_id").innerHTML = options;
+
+    });
+
+}
+
+
+// ----------------------------
+// Open Add Attendance Modal
+// ----------------------------
+function openAddModal(){
+
+    document.getElementById("modalTitle").innerHTML = "Mark Attendance";
+
+    document.getElementById("attendanceId").value = "";
+
+    loadMembersDropdown();
+
+    document.getElementById("attendance_date").value = "";
+
+    document.getElementById("check_in_time").value = "";
+
+    document.getElementById("status").value = "Present";
+
+    let modal = new bootstrap.Modal(
+        document.getElementById("attendanceModal")
+    );
+
+    modal.show();
+
+}
+
+
+// ----------------------------
+// Save Attendance
+// ----------------------------
+function saveAttendance(){
+
+    const data = {
+
+        member_id: document.getElementById("member_id").value,
+
+        attendance_date: document.getElementById("attendance_date").value,
+
+        check_in_time: document.getElementById("check_in_time").value,
+
+        status: document.getElementById("status").value
+
+    };
+
+    if(
+        !data.member_id ||
+        !data.attendance_date ||
+        !data.check_in_time ||
+        !data.status
+    ){
+
+        alert("Please fill all required fields.");
+
+        return;
+
+    }
+
+    fetch("/attendance", {
+
+        method: "POST",
+
+        headers: {
+            "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify(data)
+
+    })
+
+    .then(res => res.json())
+
+    .then(result => {
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("attendanceModal"))
+            .hide();
+
+            loadAttendance();
+
+        }
+
+    });
+
+}
+
+// ----------------------------
+// Edit Attendance
+// ----------------------------
+function editAttendance(attendanceId){
+
+    fetch(`/attendance/${attendanceId}`)
+
+    .then(res => res.json())
+
+    .then(record => {
+
+        document.getElementById("modalTitle").innerHTML = "Edit Attendance";
+
+        document.getElementById("attendanceId").value = record.attendance_id;
+
+        loadMembersDropdown();
+
+        setTimeout(function(){
+
+            document.getElementById("member_id").value = record.member_id;
+
+        },300);
+
+        document.getElementById("attendance_date").value = record.attendance_date;
+
+        document.getElementById("check_in_time").value = record.check_in_time;
+
+        document.getElementById("status").value = record.status;
+
+        let modal = new bootstrap.Modal(
+            document.getElementById("attendanceModal")
+        );
+
+        modal.show();
+
+    });
+
+}
+
+
+// ----------------------------
+// Update Attendance
+// ----------------------------
+function updateAttendance(){
+
+    let attendanceId = document.getElementById("attendanceId").value;
+
+    const data = {
+
+        member_id: document.getElementById("member_id").value,
+
+        attendance_date: document.getElementById("attendance_date").value,
+
+        check_in_time: document.getElementById("check_in_time").value,
+
+        status: document.getElementById("status").value
+
+    };
+
+    if(
+        !data.member_id ||
+        !data.attendance_date ||
+        !data.check_in_time ||
+        !data.status
+    ){
+
+        alert("Please fill all required fields.");
+
+        return;
+
+    }
+
+    fetch(`/attendance/${attendanceId}`,{
+
+        method:"PUT",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("attendanceModal"))
+            .hide();
+
+            loadAttendance();
+
+        }
+
+    });
+
+}
+
+
+// ----------------------------
+// Delete Attendance
+// ----------------------------
+function deleteAttendance(attendanceId){
+
+    if(!confirm("Are you sure you want to delete this attendance record?")){
+
+        return;
+
+    }
+
+    fetch(`/attendance/${attendanceId}`,{
+
+        method:"DELETE"
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        loadAttendance();
+
+    });
+
+}
+
+
+// ----------------------------
+// Save or Update
+// ----------------------------
+function saveOrUpdate(){
+
+    let attendanceId = document.getElementById("attendanceId").value;
+
+    if(attendanceId==""){
+
+        saveAttendance();
+
+    }
+
+    else{
+
+        updateAttendance();
+
+    }
+
+}
+
+</script>
+
+<!-- ===========================
+     Attendance Modal
+=========================== -->
+
+<div class="modal fade" id="attendanceModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+
+                <h5 class="modal-title" id="modalTitle">
+
+                    Mark Attendance
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <input
+                    type="hidden"
+                    id="attendanceId">
+
+                <div class="row">
+
+                    <!-- Member -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Member
+
+                        </label>
+
+                        <select
+                            id="member_id"
+                            class="form-select">
+
+                        </select>
+
+                    </div>
+
+                    <!-- Attendance Date -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Attendance Date
+
+                        </label>
+
+                        <input
+                            type="date"
+                            id="attendance_date"
+                            class="form-control">
+
+                    </div>
+
+                    <!-- Check In Time -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Check-In Time
+
+                        </label>
+
+                        <input
+                            type="time"
+                            id="check_in_time"
+                            class="form-control">
+
+                    </div>
+
+                    <!-- Status -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Status
+
+                        </label>
+
+                        <select
+                            id="status"
+                            class="form-select">
+
+                            <option value="Present">
+                                Present
+                            </option>
+
+                            <option value="Absent">
+                                Absent
+                            </option>
+
+                            <option value="Late">
+                                Late
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    onclick="saveOrUpdate()">
+
+                    <i class="bi bi-check-circle"></i>
+
+                    Save
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

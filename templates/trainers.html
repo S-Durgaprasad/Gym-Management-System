@@ -1,0 +1,617 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="fw-bold">
+            👨‍🏫 Trainers Management
+        </h2>
+
+        <button
+            class="btn btn-primary"
+            onclick="openAddModal()">
+
+            <i class="bi bi-plus-circle"></i>
+
+            Add Trainer
+
+        </button>
+
+    </div>
+
+    <div class="card shadow">
+
+        <div class="card-body">
+
+            <input
+                type="text"
+                class="form-control mb-3"
+                id="searchBox"
+                placeholder="Search Trainers...">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-bordered align-middle">
+
+                    <thead class="table-dark">
+
+                    <tr>
+
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Specialization</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Experience</th>
+                        <th>Salary</th>
+                        <th>Joining Date</th>
+                        <th width="140">Actions</th>
+
+                    </tr>
+
+                    </thead>
+
+                    <tbody id="trainerTable">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+loadTrainers();
+
+function loadTrainers(){
+
+    fetch("/trainers")
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        let rows="";
+
+        data.forEach(trainer=>{
+
+            rows+=`
+
+            <tr>
+
+                <td>${trainer.trainer_id}</td>
+
+                <td>${trainer.full_name}</td>
+
+                <td>${trainer.specialization}</td>
+
+                <td>${trainer.phone}</td>
+
+                <td>${trainer.email}</td>
+
+                <td>${trainer.experience}</td>
+
+                <td>₹ ${trainer.salary}</td>
+
+                <td>${trainer.joining_date}</td>
+
+                <td>
+
+                    <button
+                        class="btn btn-warning btn-sm"
+                        onclick="editTrainer(${trainer.trainer_id})">
+
+                        <i class="bi bi-pencil-square"></i>
+
+                    </button>
+
+                    <button
+                        class="btn btn-danger btn-sm"
+                        onclick="deleteTrainer(${trainer.trainer_id})">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+            `;
+
+        });
+
+        document.getElementById("trainerTable").innerHTML=rows;
+
+    });
+
+}
+
+document.getElementById("searchBox")
+
+.addEventListener("keyup",function(){
+
+    let filter=this.value.toLowerCase();
+
+    let rows=document.querySelectorAll("#trainerTable tr");
+
+    rows.forEach(row=>{
+
+        row.style.display=row.innerText
+            .toLowerCase()
+            .includes(filter)
+
+            ? ""
+
+            : "none";
+
+    });
+
+});
+// ----------------------------
+// Open Add Trainer Modal
+// ----------------------------
+function openAddModal(){
+
+    document.getElementById("modalTitle").innerHTML="Add Trainer";
+
+    document.getElementById("trainerId").value="";
+
+    document.getElementById("full_name").value="";
+    document.getElementById("specialization").value="";
+    document.getElementById("phone").value="";
+    document.getElementById("email").value="";
+    document.getElementById("experience").value="";
+    document.getElementById("salary").value="";
+    document.getElementById("joining_date").value="";
+
+    let modal=new bootstrap.Modal(
+        document.getElementById("trainerModal")
+    );
+
+    modal.show();
+
+}
+
+
+// ----------------------------
+// Save Trainer
+// ----------------------------
+function saveTrainer(){
+
+    const data={
+
+        full_name:document.getElementById("full_name").value,
+
+        specialization:document.getElementById("specialization").value,
+
+        phone:document.getElementById("phone").value,
+
+        email:document.getElementById("email").value,
+
+        experience:parseInt(document.getElementById("experience").value),
+
+        salary:parseFloat(document.getElementById("salary").value),
+
+        joining_date:document.getElementById("joining_date").value
+
+    };
+
+    // Validation
+
+    if(
+        !data.full_name ||
+        !data.specialization ||
+        !data.phone ||
+        !data.email ||
+        isNaN(data.experience) ||
+        isNaN(data.salary) ||
+        !data.joining_date
+    ){
+
+        alert("Please fill all required fields.");
+
+        return;
+
+    }
+
+    fetch("/trainers",{
+
+        method:"POST",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("trainerModal"))
+            .hide();
+
+            loadTrainers();
+
+        }
+
+    });
+
+}
+// ----------------------------
+// Edit Trainer
+// ----------------------------
+function editTrainer(trainerId){
+
+    fetch(`/trainers/${trainerId}`)
+
+    .then(res=>res.json())
+
+    .then(trainer=>{
+
+        document.getElementById("modalTitle").innerHTML="Edit Trainer";
+
+        document.getElementById("trainerId").value=trainer.trainer_id;
+
+        document.getElementById("full_name").value=trainer.full_name;
+
+        document.getElementById("specialization").value=trainer.specialization;
+
+        document.getElementById("phone").value=trainer.phone;
+
+        document.getElementById("email").value=trainer.email;
+
+        document.getElementById("experience").value=trainer.experience;
+
+        document.getElementById("salary").value=trainer.salary;
+
+        document.getElementById("joining_date").value=trainer.joining_date;
+
+        let modal=new bootstrap.Modal(
+            document.getElementById("trainerModal")
+        );
+
+        modal.show();
+
+    });
+
+}
+
+
+// ----------------------------
+// Update Trainer
+// ----------------------------
+function updateTrainer(){
+
+    let trainerId=document.getElementById("trainerId").value;
+
+    const data={
+
+        full_name:document.getElementById("full_name").value,
+
+        specialization:document.getElementById("specialization").value,
+
+        phone:document.getElementById("phone").value,
+
+        email:document.getElementById("email").value,
+
+        experience:parseInt(document.getElementById("experience").value),
+
+        salary:parseFloat(document.getElementById("salary").value),
+
+        joining_date:document.getElementById("joining_date").value
+
+    };
+
+    if(
+        !data.full_name ||
+        !data.specialization ||
+        !data.phone ||
+        !data.email ||
+        isNaN(data.experience) ||
+        isNaN(data.salary) ||
+        !data.joining_date
+    ){
+
+        alert("Please fill all required fields.");
+
+        return;
+
+    }
+
+    fetch(`/trainers/${trainerId}`,{
+
+        method:"PUT",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("trainerModal"))
+            .hide();
+
+            loadTrainers();
+
+        }
+
+    });
+
+}
+
+
+// ----------------------------
+// Delete Trainer
+// ----------------------------
+function deleteTrainer(trainerId){
+
+    if(!confirm("Are you sure you want to delete this trainer?")){
+
+        return;
+
+    }
+
+    fetch(`/trainers/${trainerId}`,{
+
+        method:"DELETE"
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        loadTrainers();
+
+    });
+
+}
+
+
+// ----------------------------
+// Save or Update
+// ----------------------------
+function saveOrUpdate(){
+
+    let trainerId=document.getElementById("trainerId").value;
+
+    if(trainerId==""){
+
+        saveTrainer();
+
+    }
+
+    else{
+
+        updateTrainer();
+
+    }
+
+}
+
+</script>
+
+<!-- ===========================
+     Trainer Modal
+=========================== -->
+
+<div class="modal fade" id="trainerModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+
+                <h5 class="modal-title" id="modalTitle">
+
+                    Add Trainer
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <input
+                    type="hidden"
+                    id="trainerId">
+
+                <div class="row">
+
+                    <!-- Full Name -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Full Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="full_name"
+                            class="form-control"
+                            placeholder="Enter Trainer Name">
+
+                    </div>
+
+                    <!-- Specialization -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Specialization
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="specialization"
+                            class="form-control"
+                            placeholder="Weight Training">
+
+                    </div>
+
+                    <!-- Phone -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Phone
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="phone"
+                            maxlength="10"
+                            class="form-control"
+                            placeholder="9876543210">
+
+                    </div>
+
+                    <!-- Email -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Email
+
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            class="form-control"
+                            placeholder="trainer@gmail.com">
+
+                    </div>
+
+                    <!-- Experience -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Experience (Years)
+
+                        </label>
+
+                        <input
+                            type="number"
+                            id="experience"
+                            class="form-control"
+                            placeholder="5">
+
+                    </div>
+
+                    <!-- Salary -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Salary
+
+                        </label>
+
+                        <input
+                            type="number"
+                            id="salary"
+                            class="form-control"
+                            placeholder="30000">
+
+                    </div>
+
+                    <!-- Joining Date -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Joining Date
+
+                        </label>
+
+                        <input
+                            type="date"
+                            id="joining_date"
+                            class="form-control">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    onclick="saveOrUpdate()">
+
+                    <i class="bi bi-check-circle"></i>
+
+                    Save
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

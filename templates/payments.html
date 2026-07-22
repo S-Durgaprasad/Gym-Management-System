@@ -1,0 +1,626 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="fw-bold">
+            💰 Payments Management
+        </h2>
+
+        <button
+            class="btn btn-primary"
+            onclick="openAddModal()">
+
+            <i class="bi bi-plus-circle"></i>
+
+            Add Payment
+
+        </button>
+
+    </div>
+
+    <div class="card shadow">
+
+        <div class="card-body">
+
+            <input
+                type="text"
+                id="searchBox"
+                class="form-control mb-3"
+                placeholder="Search Payments...">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-bordered align-middle">
+
+                    <thead class="table-dark">
+
+                        <tr>
+
+                            <th>ID</th>
+                            <th>Member</th>
+                            <th>Amount</th>
+                            <th>Payment Date</th>
+                            <th>Payment Method</th>
+                            <th>Status</th>
+                            <th width="140">Actions</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="paymentTable">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+loadPayments();
+
+function loadPayments(){
+
+    fetch("/payments")
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        let rows="";
+
+        data.forEach(payment=>{
+
+            rows+=`
+
+            <tr>
+
+                <td>${payment.payment_id}</td>
+
+                <td>${payment.full_name}</td>
+
+                <td>₹ ${payment.amount}</td>
+
+                <td>${payment.payment_date}</td>
+
+                <td>${payment.payment_method}</td>
+
+                <td>${payment.payment_status}</td>
+
+                <td>
+
+                    <button
+                        class="btn btn-warning btn-sm"
+                        onclick="editPayment(${payment.payment_id})">
+
+                        <i class="bi bi-pencil-square"></i>
+
+                    </button>
+
+                    <button
+                        class="btn btn-danger btn-sm"
+                        onclick="deletePayment(${payment.payment_id})">
+
+                        <i class="bi bi-trash"></i>
+
+                    </button>
+
+                </td>
+
+            </tr>
+
+            `;
+
+        });
+
+        document.getElementById("paymentTable").innerHTML=rows;
+
+    });
+
+}
+
+document.getElementById("searchBox")
+
+.addEventListener("keyup",function(){
+
+    let filter=this.value.toLowerCase();
+
+    let rows=document.querySelectorAll("#paymentTable tr");
+
+    rows.forEach(row=>{
+
+        row.style.display=row.innerText
+            .toLowerCase()
+            .includes(filter)
+
+            ? ""
+
+            : "none";
+
+    });
+
+});
+
+// ----------------------------
+// Load Members Dropdown
+// ----------------------------
+function loadMembersDropdown(){
+
+    fetch("/members")
+
+    .then(res => res.json())
+
+    .then(data => {
+
+        let options = "";
+
+        data.forEach(member => {
+
+            options += `
+
+                <option value="${member.member_id}">
+
+                    ${member.full_name}
+
+                </option>
+
+            `;
+
+        });
+
+        document.getElementById("member_id").innerHTML = options;
+
+    });
+
+}
+
+
+// ----------------------------
+// Open Add Payment Modal
+// ----------------------------
+function openAddModal(){
+
+    document.getElementById("modalTitle").innerHTML = "Add Payment";
+
+    document.getElementById("paymentId").value = "";
+
+    loadMembersDropdown();
+
+    document.getElementById("amount").value = "";
+
+    document.getElementById("payment_date").value = "";
+
+    document.getElementById("payment_method").value = "Cash";
+
+    document.getElementById("status").value = "Paid";
+
+    let modal = new bootstrap.Modal(
+        document.getElementById("paymentModal")
+    );
+
+    modal.show();
+
+}
+
+
+// ----------------------------
+// Save Payment
+// ----------------------------
+function savePayment(){
+
+    const data = {
+
+        member_id: document.getElementById("member_id").value,
+
+        amount: parseFloat(
+            document.getElementById("amount").value
+        ),
+
+        payment_date: document.getElementById("payment_date").value,
+
+        payment_method: document.getElementById("payment_method").value,
+
+        payment_status: document.getElementById("status").value
+
+    };
+
+    // Validation
+
+    if(
+        !data.member_id ||
+        isNaN(data.amount) ||
+        !data.payment_date ||
+        !data.payment_method ||
+        !data.payment_status
+    ){
+        alert("Please fill all required fields.");
+        return;
+    }
+
+    fetch("/payments",{
+
+        method:"POST",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res=>res.json())
+
+    .then(result=>{
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("paymentModal"))
+            .hide();
+
+            loadPayments();
+
+        }
+
+    });
+
+}
+
+// ----------------------------
+// Edit Payment
+// ----------------------------
+function editPayment(paymentId){
+
+    fetch(`/payments/${paymentId}`)
+
+    .then(res => res.json())
+
+    .then(payment => {
+
+        document.getElementById("modalTitle").innerHTML = "Edit Payment";
+
+        document.getElementById("paymentId").value = payment.payment_id;
+
+        loadMembersDropdown();
+
+        setTimeout(function(){
+
+            document.getElementById("member_id").value = payment.member_id;
+
+        },300);
+
+        document.getElementById("amount").value = payment.amount;
+
+        document.getElementById("payment_date").value = payment.payment_date;
+
+        document.getElementById("payment_method").value = payment.payment_method;
+
+        document.getElementById("status").value = payment.payment_status;
+
+        let modal = new bootstrap.Modal(
+            document.getElementById("paymentModal")
+        );
+
+        modal.show();
+
+    });
+
+}
+
+
+// ----------------------------
+// Update Payment
+// ----------------------------
+function updatePayment(){
+
+    let paymentId = document.getElementById("paymentId").value;
+
+    const data = {
+
+        member_id: document.getElementById("member_id").value,
+
+        amount: parseFloat(
+            document.getElementById("amount").value
+        ),
+
+        payment_date: document.getElementById("payment_date").value,
+
+        payment_method: document.getElementById("payment_method").value,
+
+        payment_status: document.getElementById("status").value
+
+    };
+
+    console.log(data);
+
+    if (!data.member_id) {
+        alert("Member is empty");
+        return;
+    }
+
+    if (isNaN(data.amount)) {
+        alert("Amount is empty");
+        return;
+    }
+
+    if (!data.payment_date) {
+        alert("Payment date is empty");
+        return;
+    }
+
+    if (!data.payment_method) {
+        alert("Payment method is empty");
+        return;
+    }
+
+    if (!data.payment_status) {
+        alert("Payment status is empty");
+        return;
+    }
+
+    fetch(`/payments/${paymentId}`,{
+
+        method:"PUT",
+
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body:JSON.stringify(data)
+
+    })
+
+    .then(res => res.json())
+
+    .then(result => {
+
+        alert(result.message);
+
+        if(result.success){
+
+            bootstrap.Modal
+            .getInstance(document.getElementById("paymentModal"))
+            .hide();
+
+            loadPayments();
+
+        }
+
+    });
+
+}
+
+
+// ----------------------------
+// Delete Payment
+// ----------------------------
+function deletePayment(paymentId){
+
+    if(!confirm("Are you sure you want to delete this payment?")){
+
+        return;
+
+    }
+
+    fetch(`/payments/${paymentId}`,{
+
+        method:"DELETE"
+
+    })
+
+    .then(res => res.json())
+
+    .then(result => {
+
+        alert(result.message);
+
+        loadPayments();
+
+    });
+
+}
+
+
+// ----------------------------
+// Save or Update
+// ----------------------------
+function saveOrUpdate(){
+
+    let paymentId = document.getElementById("paymentId").value;
+
+    if(paymentId == ""){
+
+        savePayment();
+
+    }
+
+    else{
+
+        updatePayment();
+
+    }
+
+}
+
+</script>
+
+<!-- ===========================
+     Payment Modal
+=========================== -->
+
+<div class="modal fade" id="paymentModal" tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header bg-primary text-white">
+
+                <h5 class="modal-title" id="modalTitle">
+
+                    Add Payment
+
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close btn-close-white"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <input
+                    type="hidden"
+                    id="paymentId">
+
+                <div class="row">
+
+                    <!-- Member -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Member
+
+                        </label>
+
+                        <select
+                            id="member_id"
+                            class="form-select">
+
+                        </select>
+
+                    </div>
+
+                    <!-- Amount -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Amount
+
+                        </label>
+
+                        <input
+                            type="number"
+                            id="amount"
+                            class="form-control"
+                            placeholder="5000">
+
+                    </div>
+
+                    <!-- Payment Date -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Payment Date
+
+                        </label>
+
+                        <input
+                            type="date"
+                            id="payment_date"
+                            class="form-control">
+
+                    </div>
+
+                    <!-- Payment Method -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Payment Method
+
+                        </label>
+
+                        <select
+                            id="payment_method"
+                            class="form-select">
+
+                            <option value="Cash">Cash</option>
+                            <option value="UPI">UPI</option>
+                            <option value="Credit Card">Credit Card</option>
+                            <option value="Debit Card">Debit Card</option>
+                            <option value="Net Banking">Net Banking</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Status -->
+
+                    <div class="col-md-6 mb-3">
+
+                        <label class="form-label">
+
+                            Status
+
+                        </label>
+
+                        <select
+                            id="status"
+                            class="form-select">
+
+                            <option value="Paid">Paid</option>
+                            <option value="Pending">Pending</option>
+                            <option value="Failed">Failed</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+
+                <button
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    class="btn btn-primary"
+                    onclick="saveOrUpdate()">
+
+                    <i class="bi bi-check-circle"></i>
+
+                    Save
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

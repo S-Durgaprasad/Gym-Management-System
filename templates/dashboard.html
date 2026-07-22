@@ -1,0 +1,243 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2 class="mb-4">
+    Dashboard
+</h2>
+
+<div class="row">
+
+    <div class="col-md-3 mb-4">
+        <div class="card bg-primary text-white">
+            <div class="card-body">
+                <h5>Total Members</h5>
+                <h2 id="members">0</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card bg-success text-white">
+            <div class="card-body">
+                <h5>Total Trainers</h5>
+                <h2 id="trainers">0</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card bg-warning text-dark">
+            <div class="card-body">
+                <h5>Revenue</h5>
+                <h2 id="revenue">₹0</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card bg-danger text-white">
+            <div class="card-body">
+                <h5>Today's Attendance</h5>
+                <h2 id="attendance">0</h2>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="row">
+
+    <div class="col-lg-6 mb-4">
+
+        <div class="card">
+
+            <div class="card-body">
+
+                <h4>Fitness Summary</h4>
+
+                <table class="table">
+
+                    <tr>
+                        <th>Average BMI</th>
+                        <td id="bmi"></td>
+                    </tr>
+
+                    <tr>
+                        <th>Active Memberships</th>
+                        <td id="active"></td>
+                    </tr>
+
+                    <tr>
+                        <th>Total Workouts</th>
+                        <td id="workouts"></td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row mt-4">
+
+    <div class="col-lg-6 mb-4">
+
+        <div class="card">
+            <div class="card-body">
+                <h4>Revenue Overview</h4>
+
+                <canvas id="revenueChart"></canvas>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="col-lg-6 mb-4">
+
+        <div class="card">
+            <div class="card-body">
+                <h4>Attendance Status</h4>
+
+                <canvas id="attendanceChart"></canvas>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    <div class="col-lg-6 mb-4">
+
+        <div class="card">
+
+            <div class="card-body">
+
+                <h4>Welcome</h4>
+
+                <p>
+
+                    Welcome to the Gym Management &
+                    Fitness Analytics System.
+
+                    Use the navigation menu to manage
+                    members, trainers, attendance,
+                    payments and workouts.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+// Load Dashboard Data
+fetch("/dashboard")
+.then(response => response.json())
+.then(data => {
+
+    document.getElementById("members").innerHTML = data.total_members;
+    document.getElementById("trainers").innerHTML = data.total_trainers;
+    document.getElementById("revenue").innerHTML = "₹" + data.total_revenue;
+    document.getElementById("attendance").innerHTML = data.today_attendance;
+    document.getElementById("bmi").innerHTML = data.average_bmi;
+    document.getElementById("active").innerHTML = data.active_memberships;
+    document.getElementById("workouts").innerHTML = data.total_workouts;
+
+    // Revenue Chart
+    new Chart(document.getElementById("revenueChart"), {
+        type: "bar",
+        data: {
+            labels: ["Revenue"],
+            datasets: [{
+                label: "Revenue",
+                data: [data.total_revenue]
+            }]
+        }
+    });
+
+    // Attendance Chart
+    new Chart(document.getElementById("attendanceChart"), {
+        type: "pie",
+        data: {
+            labels: ["Present", "Absent"],
+            datasets: [{
+                data: [data.today_attendance, Math.max(0, data.total_members - data.today_attendance)]
+            }]
+        }
+    });
+
+});
+</script>
+
+// Revenue Chart
+
+new Chart(
+document.getElementById("revenueChart"),
+{
+    type:"bar",
+
+    data:{
+        labels:["Revenue"],
+
+        datasets:[{
+            label:"Revenue",
+
+            data:[12000]
+        }]
+    }
+});
+
+// Attendance Chart
+
+new Chart(
+document.getElementById("attendanceChart"),
+{
+    type:"pie",
+
+    data:{
+        labels:["Present","Absent"],
+
+        datasets:[{
+            data:[1,0]
+        }]
+    }
+});
+
+</script>
+.then(response => response.json())
+
+.then(data => {
+
+    document.getElementById("members").innerHTML =
+        data.total_members;
+
+    document.getElementById("trainers").innerHTML =
+        data.total_trainers;
+
+    document.getElementById("revenue").innerHTML =
+        "₹" + data.total_revenue;
+
+    document.getElementById("attendance").innerHTML =
+        data.today_attendance;
+
+    document.getElementById("bmi").innerHTML =
+        data.average_bmi;
+
+    document.getElementById("active").innerHTML =
+        data.active_memberships;
+
+    document.getElementById("workouts").innerHTML =
+        data.total_workouts;
+
+});
+
+</script>
+
+{% endblock %}

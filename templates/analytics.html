@@ -1,0 +1,374 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container-fluid">
+
+    <h2 class="fw-bold mb-4">
+
+        📊 Gym Analytics Dashboard
+
+    </h2>
+
+    <div class="row">
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card text-white bg-primary shadow">
+
+                <div class="card-body text-center">
+
+                    <h5>Total Members</h5>
+
+                    <h2 id="totalMembers">0</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card text-white bg-success shadow">
+
+                <div class="card-body text-center">
+
+                    <h5>Total Trainers</h5>
+
+                    <h2 id="totalTrainers">0</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card text-white bg-warning shadow">
+
+                <div class="card-body text-center">
+
+                    <h5>Total Memberships</h5>
+
+                    <h2 id="totalMemberships">0</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+
+            <div class="card text-white bg-danger shadow">
+
+                <div class="card-body text-center">
+
+                    <h5>Total Revenue</h5>
+
+                    <h2 id="totalRevenue">₹0</h2>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6 mb-4">
+
+            <div class="card shadow">
+
+                <div class="card-header">
+
+                    Members Growth
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="membersChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-6 mb-4">
+
+            <div class="card shadow">
+
+                <div class="card-header">
+
+                    Revenue
+
+                </div>
+
+                <div class="card-body">
+
+                    <canvas id="revenueChart"></canvas>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<script>
+
+loadAnalytics();
+
+function loadAnalytics(){
+
+    fetch("/analytics/summary")
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        document.getElementById("totalMembers").innerHTML=data.total_members;
+
+        document.getElementById("totalTrainers").innerHTML=data.total_trainers;
+
+        document.getElementById("totalMemberships").innerHTML=data.total_memberships;
+
+        document.getElementById("totalRevenue").innerHTML="₹ "+data.total_revenue;
+
+    });
+
+}
+
+// ----------------------------
+// Members Growth Chart
+// ----------------------------
+function loadMembersChart(){
+
+    fetch("/analytics/summary")
+
+    .then(res => res.json())
+
+    .then(data => {
+
+        const ctx = document.getElementById("membersChart");
+
+        new Chart(ctx,{
+
+            type:"bar",
+
+            data:{
+
+                labels:[
+                    "Members",
+                    "Trainers",
+                    "Memberships",
+                    "Workouts"
+                ],
+
+                datasets:[{
+
+                    label:"Gym Statistics",
+
+                    data:[
+                        data.total_members,
+                        data.total_trainers,
+                        data.total_memberships,
+                        data.total_workouts
+                    ]
+
+                }]
+
+            },
+
+            options:{
+
+                responsive:true,
+
+                plugins:{
+
+                    legend:{
+                        display:false
+                    }
+
+                }
+
+            }
+
+        });
+
+    });
+
+}
+
+
+// ----------------------------
+// Revenue Chart
+// ----------------------------
+function loadRevenueChart(){
+
+    fetch("/analytics/summary")
+
+    .then(res => res.json())
+
+    .then(data => {
+
+        const ctx = document.getElementById("revenueChart");
+
+        new Chart(ctx,{
+
+            type:"doughnut",
+
+            data:{
+
+                labels:[
+                    "Revenue"
+                ],
+
+                datasets:[{
+
+                    data:[
+                        data.total_revenue
+                    ]
+
+                }]
+
+            },
+
+            options:{
+
+                responsive:true
+
+            }
+
+        });
+
+    });
+
+}
+
+
+// ----------------------------
+// Load Everything
+// ----------------------------
+loadMembersChart();
+
+loadRevenueChart();
+
+// ----------------------------
+// Attendance Chart
+// ----------------------------
+
+</script>
+
+<!-- ===========================
+     Dashboard Summary
+=========================== -->
+
+<div class="row mt-4">
+
+    <div class="col-md-8">
+
+        <div class="card shadow">
+
+            <div class="card-header bg-primary text-white">
+
+                Recent Activity
+
+            </div>
+
+            <div class="card-body">
+
+                <ul class="list-group">
+
+                    <a href="/members-page" class="list-group-item list-group-item-action">
+                        👤 New Member Registered
+                    </a>
+
+                    <a href="/memberships-page" class="list-group-item list-group-item-action">
+                        💳 Membership Purchased
+                    </a>
+
+                    <a href="/attendance-page" class="list-group-item list-group-item-action">
+                        📅 Attendance Updated
+                    </a>
+
+                    <a href="/payments-page" class="list-group-item list-group-item-action">
+                        💰 Payment Received
+                    </a>
+
+                    <a href="/workouts-page" class="list-group-item list-group-item-action">
+                        🏋️ Workout Assigned
+                    </a>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <div class="card shadow">
+
+            <div class="card-header bg-success text-white">
+
+                Quick Actions
+
+            </div>
+
+            <div class="card-body d-grid gap-2">
+
+                <a href="/members-page" class="btn btn-primary">
+
+                    👤 Members
+
+                </a>
+
+                <a href="/trainers-page" class="btn btn-success">
+
+                    👨‍🏫 Trainers
+
+                </a>
+
+                <a href="/memberships-page" class="btn btn-warning">
+
+                    💳 Memberships
+
+                </a>
+
+                <a href="/attendance-page" class="btn btn-info">
+
+                    📅 Attendance
+
+                </a>
+
+                <a href="/payments-page" class="btn btn-danger">
+
+                    💰 Payments
+
+                </a>
+
+                <a href="/workouts-page" class="btn btn-dark">
+
+                    🏋️ Workouts
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}
